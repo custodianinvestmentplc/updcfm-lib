@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Title>Custodian Properties Domain Helpers</Title>
+		<Authors>Dandy Ogiugo</Authors>
+		<Company>Custodian Investment Plc</Company>
+		<Product>Custodian Properties Domain Helpers</Product>
+		<Description>Helper Classes for the Custodian Properties Estate Management Domain Entities</Description>
+		<Copyright>2023</Copyright>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Custodian.Properties.Estates.Domain" Version="1.0.0" />
+		<PackageReference Include="Dapper" Version="2.0.123" />
+		<PackageReference Include="RdsUtilitiesDatabaseLibrary" Version="1.0.2" />
+		<PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+	</ItemGroup>
+
+</Project>

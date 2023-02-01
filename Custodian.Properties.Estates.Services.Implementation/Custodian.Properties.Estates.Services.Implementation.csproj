@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Title>Custodian Properties Estates Services</Title>
+        <Authors>Dandy Ogiugo</Authors>
+        <Company>Custodian Investment Plc</Company>
+        <Product>Custodian Properties Estates Services</Product>
+        <Description>Concrete implementation of estate management services</Description>
+        <Copyright>2023</Copyright>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Custodian.Properties.Estate.Services.Abstraction" Version="1.0.0" />
+        <PackageReference Include="Custodian.Properties.Estates.Domain" Version="1.0.0" />
+        <PackageReference Include="Custodian.Properties.Estates.Helpers" Version="1.0.0" />
+    </ItemGroup>
+
+</Project>

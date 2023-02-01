@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>Updc Fm Estate Domains</Title>
+    <Authors>Dandy Ogiugo</Authors>
+    <Company>Custodian Investment Plc</Company>
+    <Product>Custodian Estates Domains</Product>
+    <Description>The domain entities for managing estates</Description>
+    <Copyright>2023</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+</Project>

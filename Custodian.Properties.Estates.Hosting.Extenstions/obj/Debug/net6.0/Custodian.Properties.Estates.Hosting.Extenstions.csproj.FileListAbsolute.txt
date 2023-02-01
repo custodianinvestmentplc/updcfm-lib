@@ -1,0 +1,12 @@
+C:\dev\custodian\updc-fm\Custodian.Updcfm\Custodian.Properties.Estates.Hosting.Extenstions\bin\Debug\net6.0\Custodian.Properties.Estates.Hosting.Extenstions.deps.json
+C:\dev\custodian\updc-fm\Custodian.Updcfm\Custodian.Properties.Estates.Hosting.Extenstions\bin\Debug\net6.0\Custodian.Properties.Estates.Hosting.Extenstions.dll
+C:\dev\custodian\updc-fm\Custodian.Updcfm\Custodian.Properties.Estates.Hosting.Extenstions\bin\Debug\net6.0\Custodian.Properties.Estates.Hosting.Extenstions.pdb
+C:\dev\custodian\updc-fm\Custodian.Updcfm\Custodian.Properties.Estates.Hosting.Extenstions\obj\Debug\net6.0\Custodian.Properties.Estates.Hosting.Extenstions.csproj.AssemblyReference.cache
+C:\dev\custodian\updc-fm\Custodian.Updcfm\Custodian.Properties.Estates.Hosting.Extenstions\obj\Debug\net6.0\Custodian.Properties.Estates.Hosting.Extenstions.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\custodian\updc-fm\Custodian.Updcfm\Custodian.Properties.Estates.Hosting.Extenstions\obj\Debug\net6.0\Custodian.Properties.Estates.Hosting.Extenstions.AssemblyInfoInputs.cache
+C:\dev\custodian\updc-fm\Custodian.Updcfm\Custodian.Properties.Estates.Hosting.Extenstions\obj\Debug\net6.0\Custodian.Properties.Estates.Hosting.Extenstions.AssemblyInfo.cs
+C:\dev\custodian\updc-fm\Custodian.Updcfm\Custodian.Properties.Estates.Hosting.Extenstions\obj\Debug\net6.0\Custodian.Properties.Estates.Hosting.Extenstions.csproj.CoreCompileInputs.cache
+C:\dev\custodian\updc-fm\Custodian.Updcfm\Custodian.Properties.Estates.Hosting.Extenstions\obj\Debug\net6.0\Custodian.Properties.Estates.Hosting.Extenstions.dll
+C:\dev\custodian\updc-fm\Custodian.Updcfm\Custodian.Properties.Estates.Hosting.Extenstions\obj\Debug\net6.0\refint\Custodian.Properties.Estates.Hosting.Extenstions.dll
+C:\dev\custodian\updc-fm\Custodian.Updcfm\Custodian.Properties.Estates.Hosting.Extenstions\obj\Debug\net6.0\Custodian.Properties.Estates.Hosting.Extenstions.pdb
+C:\dev\custodian\updc-fm\Custodian.Updcfm\Custodian.Properties.Estates.Hosting.Extenstions\obj\Debug\net6.0\ref\Custodian.Properties.Estates.Hosting.Extenstions.dll

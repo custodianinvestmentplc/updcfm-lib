@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>Custodian Properties Hosting Extenstions</Title>
+    <Authors>Dandy Ogiugo</Authors>
+    <Company>Custodian Investment Plc</Company>
+    <Product>Custodian Properties Hosting Extenstions</Product>
+    <Description>A library to enable dependency injection of Custodian Properties Services into any .Net Core application</Description>
+    <Copyright>2023</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>1.1.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Custodian.Properties.Estate.Services.Abstraction" Version="1.0.0" />
+    <PackageReference Include="Custodian.Properties.Estates.Services.Implementation" Version="1.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+  </ItemGroup>
+
+</Project>

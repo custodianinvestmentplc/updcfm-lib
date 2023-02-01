@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Custodian.Properties.Estate.Services.Abstraction/1.0.0": {
+        "dependencies": {
+          "Custodian.Properties.Estates.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Custodian.Properties.Estate.Services.Abstraction.dll": {}
+        }
+      },
+      "Custodian.Properties.Estates.Domain/1.0.0": {
+        "runtime": {
+          "lib/net6.0/Custodian.Properties.Estates.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Custodian.Properties.Estate.Services.Abstraction/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Custodian.Properties.Estates.Domain/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dTLH2TUYEey/JavKRGJCeQQcRfKs8KkR9O1z8Qrx6j56q4RLfC6tB7csBkA1KpSZyx7rOI9g5J8uoRrIY0xWGQ==",
+      "path": "custodian.properties.estates.domain/1.0.0",
+      "hashPath": "custodian.properties.estates.domain.1.0.0.nupkg.sha512"
+    }
+  }
+}

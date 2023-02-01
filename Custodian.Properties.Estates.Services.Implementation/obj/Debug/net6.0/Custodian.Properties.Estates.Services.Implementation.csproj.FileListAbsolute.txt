@@ -1,0 +1,12 @@
+C:\dev\custodian\updc-fm\Custodian.Updcfm\Custodian.Properties.Estates.Services.Implementation\bin\Debug\net6.0\Custodian.Properties.Estates.Services.Implementation.deps.json
+C:\dev\custodian\updc-fm\Custodian.Updcfm\Custodian.Properties.Estates.Services.Implementation\bin\Debug\net6.0\Custodian.Properties.Estates.Services.Implementation.dll
+C:\dev\custodian\updc-fm\Custodian.Updcfm\Custodian.Properties.Estates.Services.Implementation\bin\Debug\net6.0\Custodian.Properties.Estates.Services.Implementation.pdb
+C:\dev\custodian\updc-fm\Custodian.Updcfm\Custodian.Properties.Estates.Services.Implementation\obj\Debug\net6.0\Custodian.Properties.Estates.Services.Implementation.csproj.AssemblyReference.cache
+C:\dev\custodian\updc-fm\Custodian.Updcfm\Custodian.Properties.Estates.Services.Implementation\obj\Debug\net6.0\Custodian.Properties.Estates.Services.Implementation.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\custodian\updc-fm\Custodian.Updcfm\Custodian.Properties.Estates.Services.Implementation\obj\Debug\net6.0\Custodian.Properties.Estates.Services.Implementation.AssemblyInfoInputs.cache
+C:\dev\custodian\updc-fm\Custodian.Updcfm\Custodian.Properties.Estates.Services.Implementation\obj\Debug\net6.0\Custodian.Properties.Estates.Services.Implementation.AssemblyInfo.cs
+C:\dev\custodian\updc-fm\Custodian.Updcfm\Custodian.Properties.Estates.Services.Implementation\obj\Debug\net6.0\Custodian.Properties.Estates.Services.Implementation.csproj.CoreCompileInputs.cache
+C:\dev\custodian\updc-fm\Custodian.Updcfm\Custodian.Properties.Estates.Services.Implementation\obj\Debug\net6.0\Custodian.Properties.Estates.Services.Implementation.dll
+C:\dev\custodian\updc-fm\Custodian.Updcfm\Custodian.Properties.Estates.Services.Implementation\obj\Debug\net6.0\refint\Custodian.Properties.Estates.Services.Implementation.dll
+C:\dev\custodian\updc-fm\Custodian.Updcfm\Custodian.Properties.Estates.Services.Implementation\obj\Debug\net6.0\Custodian.Properties.Estates.Services.Implementation.pdb
+C:\dev\custodian\updc-fm\Custodian.Updcfm\Custodian.Properties.Estates.Services.Implementation\obj\Debug\net6.0\ref\Custodian.Properties.Estates.Services.Implementation.dll

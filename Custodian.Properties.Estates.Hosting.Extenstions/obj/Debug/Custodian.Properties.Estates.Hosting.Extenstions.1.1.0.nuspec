@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Custodian.Properties.Estates.Hosting.Extenstions</id>
+    <version>1.1.0</version>
+    <title>Custodian Properties Hosting Extenstions</title>
+    <authors>Dandy Ogiugo</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <description>A library to enable dependency injection of Custodian Properties Services into any .Net Core application</description>
+    <copyright>2023</copyright>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Custodian.Properties.Estate.Services.Abstraction" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Custodian.Properties.Estates.Services.Implementation" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="7.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\dev\custodian\updc-fm\Custodian.Updcfm\Custodian.Properties.Estates.Hosting.Extenstions\bin\Debug\net6.0\Custodian.Properties.Estates.Hosting.Extenstions.dll" target="lib\net6.0\Custodian.Properties.Estates.Hosting.Extenstions.dll" />
+  </files>
+</package>

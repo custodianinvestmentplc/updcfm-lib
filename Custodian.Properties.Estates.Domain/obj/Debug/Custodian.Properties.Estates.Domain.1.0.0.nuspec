@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Custodian.Properties.Estates.Domain</id>
+    <version>1.0.0</version>
+    <title>Updc Fm Estate Domains</title>
+    <authors>Dandy Ogiugo</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <description>The domain entities for managing estates</description>
+    <copyright>2023</copyright>
+    <dependencies>
+      <group targetFramework="net6.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\dev\custodian\updc-fm\Custodian.Updcfm\Custodian.Properties.Estates.Domain\bin\Debug\net6.0\Custodian.Properties.Estates.Domain.dll" target="lib\net6.0\Custodian.Properties.Estates.Domain.dll" />
+  </files>
+</package>
