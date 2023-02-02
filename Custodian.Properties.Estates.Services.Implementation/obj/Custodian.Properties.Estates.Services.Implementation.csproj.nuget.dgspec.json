@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\custodian\\updc-fm\\Custodian.Updcfm\\Custodian.Properties.Estates.Services.Implementation\\Custodian.Properties.Estates.Services.Implementation.csproj": {}
+    "C:\\dev\\custodian\\projects\\updcfm-lib\\Custodian.Properties.Estates.Services.Implementation\\Custodian.Properties.Estates.Services.Implementation.csproj": {}
   },
   "projects": {
-    "C:\\dev\\custodian\\updc-fm\\Custodian.Updcfm\\Custodian.Properties.Estates.Services.Implementation\\Custodian.Properties.Estates.Services.Implementation.csproj": {
+    "C:\\dev\\custodian\\projects\\updcfm-lib\\Custodian.Properties.Estates.Services.Implementation\\Custodian.Properties.Estates.Services.Implementation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\custodian\\updc-fm\\Custodian.Updcfm\\Custodian.Properties.Estates.Services.Implementation\\Custodian.Properties.Estates.Services.Implementation.csproj",
+        "projectUniqueName": "C:\\dev\\custodian\\projects\\updcfm-lib\\Custodian.Properties.Estates.Services.Implementation\\Custodian.Properties.Estates.Services.Implementation.csproj",
         "projectName": "Custodian.Properties.Estates.Services.Implementation",
-        "projectPath": "C:\\dev\\custodian\\updc-fm\\Custodian.Updcfm\\Custodian.Properties.Estates.Services.Implementation\\Custodian.Properties.Estates.Services.Implementation.csproj",
-        "packagesPath": "C:\\Users\\dogiugo\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\custodian\\updc-fm\\Custodian.Updcfm\\Custodian.Properties.Estates.Services.Implementation\\obj\\",
+        "projectPath": "C:\\dev\\custodian\\projects\\updcfm-lib\\Custodian.Properties.Estates.Services.Implementation\\Custodian.Properties.Estates.Services.Implementation.csproj",
+        "packagesPath": "C:\\Users\\Krane Abel\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\custodian\\projects\\updcfm-lib\\Custodian.Properties.Estates.Services.Implementation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dogiugo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Krane Abel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -69,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

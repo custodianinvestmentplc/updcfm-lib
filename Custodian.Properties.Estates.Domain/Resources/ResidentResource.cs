@@ -29,5 +29,9 @@ namespace Custodian.Properties.Estates.Domain.Resources
 
         [JsonPropertyName("contacts")]
         public List<ResidentContact> Contacts { get; set; } = new List<ResidentContact>();
+
+        [JsonPropertyName("unit")]
+        public Unit unit { get; set; } = new Unit();
+
     }
 }

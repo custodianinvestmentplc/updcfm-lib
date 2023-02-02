@@ -22,7 +22,12 @@ namespace Custodian.Properties.Estates.Services.Implementation
             if (id == null && email != null)
             {
                 resident = ResidentHelper.GetResidentByEmail(_db, email);
-                //List<ResidentContact> contacts = ResidentHelper.GetResidentContactList()
+                List<ResidentContact> contacts = ResidentHelper.GetResidentContactList(_db, resident.Id);
+                resident.Contacts = contacts;
+
+                Unit unit = ResidentHelper.GetResidentUnit(_db, resident.Id);
+                unit.EstateInfomation = ResidentHelper.GetResidentEstate(_db, resident.Id);
+
 
                 return resident;
             }
