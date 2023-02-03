@@ -10,3 +10,6 @@ C:\dev\custodian\updc-fm\Custodian.Updcfm\Custodian.Properties.Estates.Services.
 C:\dev\custodian\updc-fm\Custodian.Updcfm\Custodian.Properties.Estates.Services.Implementation\obj\Debug\net6.0\refint\Custodian.Properties.Estates.Services.Implementation.dll
 C:\dev\custodian\updc-fm\Custodian.Updcfm\Custodian.Properties.Estates.Services.Implementation\obj\Debug\net6.0\Custodian.Properties.Estates.Services.Implementation.pdb
 C:\dev\custodian\updc-fm\Custodian.Updcfm\Custodian.Properties.Estates.Services.Implementation\obj\Debug\net6.0\ref\Custodian.Properties.Estates.Services.Implementation.dll
+C:\dev\custodian\updc-fm\Custodian.Updcfm\Custodian.Properties.Estates.Services.Implementation\bin\Debug\net6.0\Custodian.Properties.Estates.Helpers.dll
+C:\dev\custodian\updc-fm\Custodian.Updcfm\Custodian.Properties.Estates.Services.Implementation\bin\Debug\net6.0\Custodian.Properties.Estates.Helpers.pdb
+C:\dev\custodian\updc-fm\Custodian.Updcfm\Custodian.Properties.Estates.Services.Implementation\obj\Debug\net6.0\Custodian.Properties.Estates.Services.Implementation.csproj.CopyComplete

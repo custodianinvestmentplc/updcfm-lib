@@ -23,21 +23,6 @@
           "lib/net6.0/Custodian.Properties.Estates.Domain.dll": {}
         }
       },
-      "Custodian.Properties.Estates.Helpers/1.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Custodian.Properties.Estates.Domain": "1.0.0",
-          "Dapper": "2.0.123",
-          "RdsUtilitiesDatabaseLibrary": "1.0.2",
-          "System.Data.SqlClient": "4.8.5"
-        },
-        "compile": {
-          "lib/net6.0/Custodian.Properties.Estates.Helpers.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/Custodian.Properties.Estates.Helpers.dll": {}
-        }
-      },
       "Dapper/2.0.123": {
         "type": "package",
         "compile": {
@@ -207,6 +192,22 @@
             "rid": "win"
           }
         }
+      },
+      "Custodian.Properties.Estates.Helpers/1.0.1": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Custodian.Properties.Estates.Domain": "1.0.0",
+          "Dapper": "2.0.123",
+          "RdsUtilitiesDatabaseLibrary": "1.0.2",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/Custodian.Properties.Estates.Helpers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Custodian.Properties.Estates.Helpers.dll": {}
+        }
       }
     }
   },
@@ -233,18 +234,6 @@
         "custodian.properties.estates.domain.1.0.0.nupkg.sha512",
         "custodian.properties.estates.domain.nuspec",
         "lib/net6.0/Custodian.Properties.Estates.Domain.dll"
-      ]
-    },
-    "Custodian.Properties.Estates.Helpers/1.0.0": {
-      "sha512": "cHxmheR7aOUix8z8+d2X3VNQDvnp/OnFJjiaLVCgPONYSi4Raooq5M7v6+RAtgjrjBA7F6HVgOiFLhweiU/DmQ==",
-      "type": "package",
-      "path": "custodian.properties.estates.helpers/1.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "custodian.properties.estates.helpers.1.0.0.nupkg.sha512",
-        "custodian.properties.estates.helpers.nuspec",
-        "lib/net6.0/Custodian.Properties.Estates.Helpers.dll"
       ]
     },
     "Dapper/2.0.123": {
@@ -589,29 +578,34 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Custodian.Properties.Estates.Helpers/1.0.1": {
+      "type": "project",
+      "path": "../Custodian.Properties.Estates.Helpers/Custodian.Properties.Estates.Helpers.csproj",
+      "msbuildProject": "../Custodian.Properties.Estates.Helpers/Custodian.Properties.Estates.Helpers.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Custodian.Properties.Estate.Services.Abstraction >= 1.0.0",
       "Custodian.Properties.Estates.Domain >= 1.0.0",
-      "Custodian.Properties.Estates.Helpers >= 1.0.0"
+      "Custodian.Properties.Estates.Helpers >= 1.0.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Krane Abel\\.nuget\\packages\\": {}
+    "C:\\Users\\dogiugo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\custodian\\projects\\updcfm-lib\\Custodian.Properties.Estates.Services.Implementation\\Custodian.Properties.Estates.Services.Implementation.csproj",
+      "projectUniqueName": "C:\\dev\\custodian\\updc-fm\\Custodian.Updcfm\\Custodian.Properties.Estates.Services.Implementation\\Custodian.Properties.Estates.Services.Implementation.csproj",
       "projectName": "Custodian.Properties.Estates.Services.Implementation",
-      "projectPath": "C:\\dev\\custodian\\projects\\updcfm-lib\\Custodian.Properties.Estates.Services.Implementation\\Custodian.Properties.Estates.Services.Implementation.csproj",
-      "packagesPath": "C:\\Users\\Krane Abel\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\custodian\\projects\\updcfm-lib\\Custodian.Properties.Estates.Services.Implementation\\obj\\",
+      "projectPath": "C:\\dev\\custodian\\updc-fm\\Custodian.Updcfm\\Custodian.Properties.Estates.Services.Implementation\\Custodian.Properties.Estates.Services.Implementation.csproj",
+      "packagesPath": "C:\\Users\\dogiugo\\.nuget\\packages\\",
+      "outputPath": "C:\\dev\\custodian\\updc-fm\\Custodian.Updcfm\\Custodian.Properties.Estates.Services.Implementation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Krane Abel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dogiugo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -624,7 +618,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\dev\\custodian\\updc-fm\\Custodian.Updcfm\\Custodian.Properties.Estates.Helpers\\Custodian.Properties.Estates.Helpers.csproj": {
+              "projectPath": "C:\\dev\\custodian\\updc-fm\\Custodian.Updcfm\\Custodian.Properties.Estates.Helpers\\Custodian.Properties.Estates.Helpers.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -647,7 +645,7 @@
           },
           "Custodian.Properties.Estates.Helpers": {
             "target": "Package",
-            "version": "[1.0.0, )"
+            "version": "[1.0.1, )"
           }
         },
         "imports": [
@@ -666,7 +664,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

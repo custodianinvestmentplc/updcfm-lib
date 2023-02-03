@@ -16,7 +16,11 @@
     <ItemGroup>
         <PackageReference Include="Custodian.Properties.Estate.Services.Abstraction" Version="1.0.0" />
         <PackageReference Include="Custodian.Properties.Estates.Domain" Version="1.0.0" />
-        <PackageReference Include="Custodian.Properties.Estates.Helpers" Version="1.0.0" />
+        <PackageReference Include="Custodian.Properties.Estates.Helpers" Version="1.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Custodian.Properties.Estates.Helpers\Custodian.Properties.Estates.Helpers.csproj" />
     </ItemGroup>
 
 </Project>

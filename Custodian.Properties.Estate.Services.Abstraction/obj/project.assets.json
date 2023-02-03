@@ -33,19 +33,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Krane Abel\\.nuget\\packages\\": {}
+    "C:\\Users\\dogiugo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\custodian\\projects\\updcfm-lib\\Custodian.Properties.Estate.Services.Abstraction\\Custodian.Properties.Estate.Services.Abstraction.csproj",
+      "projectUniqueName": "C:\\dev\\custodian\\updc-fm\\Custodian.Updcfm\\Custodian.Properties.Estate.Services.Abstraction\\Custodian.Properties.Estate.Services.Abstraction.csproj",
       "projectName": "Custodian.Properties.Estate.Services.Abstraction",
-      "projectPath": "C:\\dev\\custodian\\projects\\updcfm-lib\\Custodian.Properties.Estate.Services.Abstraction\\Custodian.Properties.Estate.Services.Abstraction.csproj",
-      "packagesPath": "C:\\Users\\Krane Abel\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\custodian\\projects\\updcfm-lib\\Custodian.Properties.Estate.Services.Abstraction\\obj\\",
+      "projectPath": "C:\\dev\\custodian\\updc-fm\\Custodian.Updcfm\\Custodian.Properties.Estate.Services.Abstraction\\Custodian.Properties.Estate.Services.Abstraction.csproj",
+      "packagesPath": "C:\\Users\\dogiugo\\.nuget\\packages\\",
+      "outputPath": "C:\\dev\\custodian\\updc-fm\\Custodian.Updcfm\\Custodian.Properties.Estate.Services.Abstraction\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Krane Abel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dogiugo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -92,7 +92,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
