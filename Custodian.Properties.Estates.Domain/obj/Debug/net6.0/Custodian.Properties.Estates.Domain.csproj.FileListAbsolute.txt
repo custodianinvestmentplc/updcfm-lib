@@ -10,3 +10,15 @@ C:\dev\custodian\updc-fm\Custodian.Updcfm\Custodian.Properties.Estates.Domain\ob
 C:\dev\custodian\updc-fm\Custodian.Updcfm\Custodian.Properties.Estates.Domain\obj\Debug\net6.0\refint\Custodian.Properties.Estates.Domain.dll
 C:\dev\custodian\updc-fm\Custodian.Updcfm\Custodian.Properties.Estates.Domain\obj\Debug\net6.0\Custodian.Properties.Estates.Domain.pdb
 C:\dev\custodian\updc-fm\Custodian.Updcfm\Custodian.Properties.Estates.Domain\obj\Debug\net6.0\ref\Custodian.Properties.Estates.Domain.dll
+C:\dev\custodian\projects\updcfm-lib\Custodian.Properties.Estates.Domain\bin\Debug\net6.0\Custodian.Properties.Estates.Domain.deps.json
+C:\dev\custodian\projects\updcfm-lib\Custodian.Properties.Estates.Domain\bin\Debug\net6.0\Custodian.Properties.Estates.Domain.dll
+C:\dev\custodian\projects\updcfm-lib\Custodian.Properties.Estates.Domain\bin\Debug\net6.0\Custodian.Properties.Estates.Domain.pdb
+C:\dev\custodian\projects\updcfm-lib\Custodian.Properties.Estates.Domain\obj\Debug\net6.0\Custodian.Properties.Estates.Domain.csproj.AssemblyReference.cache
+C:\dev\custodian\projects\updcfm-lib\Custodian.Properties.Estates.Domain\obj\Debug\net6.0\Custodian.Properties.Estates.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\custodian\projects\updcfm-lib\Custodian.Properties.Estates.Domain\obj\Debug\net6.0\Custodian.Properties.Estates.Domain.AssemblyInfoInputs.cache
+C:\dev\custodian\projects\updcfm-lib\Custodian.Properties.Estates.Domain\obj\Debug\net6.0\Custodian.Properties.Estates.Domain.AssemblyInfo.cs
+C:\dev\custodian\projects\updcfm-lib\Custodian.Properties.Estates.Domain\obj\Debug\net6.0\Custodian.Properties.Estates.Domain.csproj.CoreCompileInputs.cache
+C:\dev\custodian\projects\updcfm-lib\Custodian.Properties.Estates.Domain\obj\Debug\net6.0\Custodian.Properties.Estates.Domain.dll
+C:\dev\custodian\projects\updcfm-lib\Custodian.Properties.Estates.Domain\obj\Debug\net6.0\refint\Custodian.Properties.Estates.Domain.dll
+C:\dev\custodian\projects\updcfm-lib\Custodian.Properties.Estates.Domain\obj\Debug\net6.0\Custodian.Properties.Estates.Domain.pdb
+C:\dev\custodian\projects\updcfm-lib\Custodian.Properties.Estates.Domain\obj\Debug\net6.0\ref\Custodian.Properties.Estates.Domain.dll

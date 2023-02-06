@@ -1,5 +1,6 @@
 ﻿using Custodian.Properties.Estate.Services.Abstraction;
 using Custodian.Properties.Estates.Domain.Entities;
+using Custodian.Properties.Estates.Domain.Resources;
 using Custodian.Properties.Estates.Helpers.Domains;
 using Custodian.Properties.Estates.Helpers.Services;
 using System.Data;
@@ -15,9 +16,9 @@ namespace Custodian.Properties.Estates.Services.Implementation
             _db = Database.Connect(dbconnectionString);
         }
 
-        public Resident GetResident(string? email, string? id)
+        public ResidentResource GetResident(string? email, string? id)
         {
-            Resident? resident = null;
+            ResidentResource? resident = null;
 
             if (id == null && email != null)
             {
@@ -27,6 +28,8 @@ namespace Custodian.Properties.Estates.Services.Implementation
 
                 Unit unit = ResidentHelper.GetResidentUnit(_db, resident.Id);
                 unit.EstateInfomation = ResidentHelper.GetResidentEstate(_db, resident.Id);
+
+                resident.unit = unit;
 
 
                 return resident;

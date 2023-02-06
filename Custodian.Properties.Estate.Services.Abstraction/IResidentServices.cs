@@ -1,10 +1,11 @@
 ﻿using Custodian.Properties.Estates.Domain.Entities;
+using Custodian.Properties.Estates.Domain.Resources;
 
 namespace Custodian.Properties.Estate.Services.Abstraction
 {
     public interface IResidentServices
     {
-        Resident GetResident(string? email, string? id);
+        ResidentResource GetResident(string? email, string? id);
         void ProcessLoginRequest(string residentId);
         void ProcessProfileActivationRequest(string residentId);
     }

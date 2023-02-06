@@ -1,4 +1,5 @@
 ﻿using Custodian.Properties.Estates.Domain.Entities;
+using Custodian.Properties.Estates.Domain.Resources;
 using Dapper;
 using Rds.Utilities.Database.ReadWrite;
 using System.Data;
@@ -7,14 +8,14 @@ namespace Custodian.Properties.Estates.Helpers.Domains
 {
     public static class ResidentHelper
     {
-        public static Resident GetResidentByEmail(IDbConnection db, string email)
+        public static ResidentResource GetResidentByEmail(IDbConnection db, string email)
         {
             string sp = "dbo.find_resident";
             DynamicParameters parm = new DynamicParameters();
 
             parm.Add("@email_address", email);
 
-            var lst = DbStore.LoadData<Resident>(db, sp, parm);
+            var lst = DbStore.LoadData<ResidentResource>(db, sp, parm);
 
             if (lst != null && lst.Count == 1)
             {

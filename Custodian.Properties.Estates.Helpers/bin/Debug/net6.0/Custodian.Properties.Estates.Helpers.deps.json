@@ -17,14 +17,6 @@
           "Custodian.Properties.Estates.Helpers.dll": {}
         }
       },
-      "Custodian.Properties.Estates.Domain/1.0.0": {
-        "runtime": {
-          "lib/net6.0/Custodian.Properties.Estates.Domain.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
       "Dapper/2.0.123": {
         "runtime": {
           "lib/net5.0/Dapper.dll": {
@@ -118,7 +110,12 @@
           "System.Security.Principal.Windows": "4.7.0"
         }
       },
-      "System.Security.Principal.Windows/4.7.0": {}
+      "System.Security.Principal.Windows/4.7.0": {},
+      "Custodian.Properties.Estates.Domain/1.0.0": {
+        "runtime": {
+          "Custodian.Properties.Estates.Domain.dll": {}
+        }
+      }
     }
   },
   "libraries": {
@@ -126,13 +123,6 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
-    },
-    "Custodian.Properties.Estates.Domain/1.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-dTLH2TUYEey/JavKRGJCeQQcRfKs8KkR9O1z8Qrx6j56q4RLfC6tB7csBkA1KpSZyx7rOI9g5J8uoRrIY0xWGQ==",
-      "path": "custodian.properties.estates.domain/1.0.0",
-      "hashPath": "custodian.properties.estates.domain.1.0.0.nupkg.sha512"
     },
     "Dapper/2.0.123": {
       "type": "package",
@@ -210,6 +200,11 @@
       "sha512": "sha512-ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ==",
       "path": "system.security.principal.windows/4.7.0",
       "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
+    },
+    "Custodian.Properties.Estates.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

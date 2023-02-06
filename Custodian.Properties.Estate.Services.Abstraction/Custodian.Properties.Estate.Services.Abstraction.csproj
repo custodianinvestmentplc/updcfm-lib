@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<TargetFramework>net6.0</TargetFramework>
@@ -12,9 +12,17 @@
 		<Copyright>(c) 2023</Copyright>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 	</PropertyGroup>
-
-	<ItemGroup>
-		<PackageReference Include="Custodian.Properties.Estates.Domain" Version="1.0.0" />
-	</ItemGroup>
+  <Choose>
+    <When Condition="'$(Configuration)'=='Debug'">
+			<ItemGroup>
+				<ProjectReference Include="..\Custodian.Properties.Estates.Domain\Custodian.Properties.Estates.Domain.csproj" />
+			</ItemGroup>
+    </When>
+    <Otherwise>
+			<ItemGroup>
+				<PackageReference Include="Custodian.Properties.Estates.Domain" Version="1.0.0" />
+			</ItemGroup>
+    </Otherwise>
+  </Choose>
 
 </Project>

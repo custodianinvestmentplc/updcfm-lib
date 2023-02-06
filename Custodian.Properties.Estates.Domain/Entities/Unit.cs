@@ -8,7 +8,7 @@ namespace Custodian.Properties.Estates.Domain.Entities
         public string Id { get; set; } = string.Empty;
 
         [JsonPropertyName("unit_number")]
-        public string Number { get; set; } = string.Empty;
+        public string Unit_Number { get; set; } = string.Empty;
 
         [JsonPropertyName("estate")]
         public Estate EstateInfomation { get; set; } = new Estate();

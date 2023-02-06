@@ -2,42 +2,6 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "Custodian.Properties.Estate.Services.Abstraction/1.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Custodian.Properties.Estates.Domain": "1.0.0"
-        },
-        "compile": {
-          "lib/net6.0/Custodian.Properties.Estate.Services.Abstraction.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/Custodian.Properties.Estate.Services.Abstraction.dll": {}
-        }
-      },
-      "Custodian.Properties.Estates.Domain/1.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/Custodian.Properties.Estates.Domain.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/Custodian.Properties.Estates.Domain.dll": {}
-        }
-      },
-      "Custodian.Properties.Estates.Helpers/1.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Custodian.Properties.Estates.Domain": "1.0.0",
-          "Dapper": "2.0.123",
-          "RdsUtilitiesDatabaseLibrary": "1.0.2",
-          "System.Data.SqlClient": "4.8.5"
-        },
-        "compile": {
-          "lib/net6.0/Custodian.Properties.Estates.Helpers.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/Custodian.Properties.Estates.Helpers.dll": {}
-        }
-      },
       "Dapper/2.0.123": {
         "type": "package",
         "compile": {
@@ -207,46 +171,49 @@
             "rid": "win"
           }
         }
+      },
+      "Custodian.Properties.Estate.Services.Abstraction/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Custodian.Properties.Estates.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Custodian.Properties.Estate.Services.Abstraction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Custodian.Properties.Estate.Services.Abstraction.dll": {}
+        }
+      },
+      "Custodian.Properties.Estates.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Custodian.Properties.Estates.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Custodian.Properties.Estates.Domain.dll": {}
+        }
+      },
+      "Custodian.Properties.Estates.Helpers/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Custodian.Properties.Estates.Domain": "1.0.0",
+          "Dapper": "2.0.123",
+          "RdsUtilitiesDatabaseLibrary": "1.0.2",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "compile": {
+          "bin/placeholder/Custodian.Properties.Estates.Helpers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Custodian.Properties.Estates.Helpers.dll": {}
+        }
       }
     }
   },
   "libraries": {
-    "Custodian.Properties.Estate.Services.Abstraction/1.0.0": {
-      "sha512": "CxZaYuOmzcEtdGhdFDLgb4F3Vfy6gC5qF5GaxuesX4fHYKLjHf4fvTWjCHOgWpDVMyW9Lg+HwyXrX+F6RzXh4w==",
-      "type": "package",
-      "path": "custodian.properties.estate.services.abstraction/1.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "custodian.properties.estate.services.abstraction.1.0.0.nupkg.sha512",
-        "custodian.properties.estate.services.abstraction.nuspec",
-        "lib/net6.0/Custodian.Properties.Estate.Services.Abstraction.dll"
-      ]
-    },
-    "Custodian.Properties.Estates.Domain/1.0.0": {
-      "sha512": "dTLH2TUYEey/JavKRGJCeQQcRfKs8KkR9O1z8Qrx6j56q4RLfC6tB7csBkA1KpSZyx7rOI9g5J8uoRrIY0xWGQ==",
-      "type": "package",
-      "path": "custodian.properties.estates.domain/1.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "custodian.properties.estates.domain.1.0.0.nupkg.sha512",
-        "custodian.properties.estates.domain.nuspec",
-        "lib/net6.0/Custodian.Properties.Estates.Domain.dll"
-      ]
-    },
-    "Custodian.Properties.Estates.Helpers/1.0.0": {
-      "sha512": "cHxmheR7aOUix8z8+d2X3VNQDvnp/OnFJjiaLVCgPONYSi4Raooq5M7v6+RAtgjrjBA7F6HVgOiFLhweiU/DmQ==",
-      "type": "package",
-      "path": "custodian.properties.estates.helpers/1.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "custodian.properties.estates.helpers.1.0.0.nupkg.sha512",
-        "custodian.properties.estates.helpers.nuspec",
-        "lib/net6.0/Custodian.Properties.Estates.Helpers.dll"
-      ]
-    },
     "Dapper/2.0.123": {
       "sha512": "RDFF4rBLLmbpi6pwkY7q/M6UXHRJEOerplDGE5jwEkP/JGJnBauAClYavNKJPW1yOTWRPIyfj4is3EaJxQXILQ==",
       "type": "package",
@@ -589,6 +556,21 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Custodian.Properties.Estate.Services.Abstraction/1.0.0": {
+      "type": "project",
+      "path": "../Custodian.Properties.Estate.Services.Abstraction/Custodian.Properties.Estate.Services.Abstraction.csproj",
+      "msbuildProject": "../Custodian.Properties.Estate.Services.Abstraction/Custodian.Properties.Estate.Services.Abstraction.csproj"
+    },
+    "Custodian.Properties.Estates.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Custodian.Properties.Estates.Domain/Custodian.Properties.Estates.Domain.csproj",
+      "msbuildProject": "../Custodian.Properties.Estates.Domain/Custodian.Properties.Estates.Domain.csproj"
+    },
+    "Custodian.Properties.Estates.Helpers/1.0.0": {
+      "type": "project",
+      "path": "../Custodian.Properties.Estates.Helpers/Custodian.Properties.Estates.Helpers.csproj",
+      "msbuildProject": "../Custodian.Properties.Estates.Helpers/Custodian.Properties.Estates.Helpers.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -624,7 +606,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\dev\\custodian\\projects\\updcfm-lib\\Custodian.Properties.Estate.Services.Abstraction\\Custodian.Properties.Estate.Services.Abstraction.csproj": {
+              "projectPath": "C:\\dev\\custodian\\projects\\updcfm-lib\\Custodian.Properties.Estate.Services.Abstraction\\Custodian.Properties.Estate.Services.Abstraction.csproj"
+            },
+            "C:\\dev\\custodian\\projects\\updcfm-lib\\Custodian.Properties.Estates.Domain\\Custodian.Properties.Estates.Domain.csproj": {
+              "projectPath": "C:\\dev\\custodian\\projects\\updcfm-lib\\Custodian.Properties.Estates.Domain\\Custodian.Properties.Estates.Domain.csproj"
+            },
+            "C:\\dev\\custodian\\projects\\updcfm-lib\\Custodian.Properties.Estates.Helpers\\Custodian.Properties.Estates.Helpers.csproj": {
+              "projectPath": "C:\\dev\\custodian\\projects\\updcfm-lib\\Custodian.Properties.Estates.Helpers\\Custodian.Properties.Estates.Helpers.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -636,20 +628,6 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
-        "dependencies": {
-          "Custodian.Properties.Estate.Services.Abstraction": {
-            "target": "Package",
-            "version": "[1.0.0, )"
-          },
-          "Custodian.Properties.Estates.Domain": {
-            "target": "Package",
-            "version": "[1.0.0, )"
-          },
-          "Custodian.Properties.Estates.Helpers": {
-            "target": "Package",
-            "version": "[1.0.0, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",

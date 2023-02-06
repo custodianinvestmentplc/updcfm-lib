@@ -1,12 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "bP6Y7yEHn07Q31V23K0f3d6DIZJEa4B+5+8q9tjL5sIXRAy49lrPUYCIiUqWBME5PGoz2Doo5cMHqFCSAjb6iw==",
+  "dgSpecHash": "ISOyuJEc1Pa0HfvrgamvCQ2ZhK21WWLeCJPSP9fbZSDdgiGU42WlnVATO1iuTpciyHFpMeVRII+5p5Yq8AlzXg==",
   "success": true,
   "projectFilePath": "C:\\dev\\custodian\\projects\\updcfm-lib\\Custodian.Properties.Estates.Services.Implementation\\Custodian.Properties.Estates.Services.Implementation.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Krane Abel\\.nuget\\packages\\custodian.properties.estate.services.abstraction\\1.0.0\\custodian.properties.estate.services.abstraction.1.0.0.nupkg.sha512",
-    "C:\\Users\\Krane Abel\\.nuget\\packages\\custodian.properties.estates.domain\\1.0.0\\custodian.properties.estates.domain.1.0.0.nupkg.sha512",
-    "C:\\Users\\Krane Abel\\.nuget\\packages\\custodian.properties.estates.helpers\\1.0.0\\custodian.properties.estates.helpers.1.0.0.nupkg.sha512",
     "C:\\Users\\Krane Abel\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\Krane Abel\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Krane Abel\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
@@ -17,7 +14,10 @@
     "C:\\Users\\Krane Abel\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\Krane Abel\\.nuget\\packages\\system.data.sqlclient\\4.8.5\\system.data.sqlclient.4.8.5.nupkg.sha512",
     "C:\\Users\\Krane Abel\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
-    "C:\\Users\\Krane Abel\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+    "C:\\Users\\Krane Abel\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\Krane Abel\\.nuget\\packages\\custodian.properties.estate.services.abstraction\\1.0.0\\custodian.properties.estate.services.abstraction.1.0.0.nupkg.sha512",
+    "C:\\Users\\Krane Abel\\.nuget\\packages\\custodian.properties.estates.domain\\1.0.0\\custodian.properties.estates.domain.1.0.0.nupkg.sha512",
+    "C:\\Users\\Krane Abel\\.nuget\\packages\\custodian.properties.estates.helpers\\1.0.0\\custodian.properties.estates.helpers.1.0.0.nupkg.sha512"
   ],
   "logs": []
 }
