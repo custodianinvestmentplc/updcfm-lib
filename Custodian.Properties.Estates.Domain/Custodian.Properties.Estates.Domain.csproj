@@ -11,6 +11,7 @@
     <Description>The domain entities for managing estates</Description>
     <Copyright>2023</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
 </Project>

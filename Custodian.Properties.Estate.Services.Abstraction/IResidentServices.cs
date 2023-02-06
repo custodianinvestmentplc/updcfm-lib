@@ -1,5 +1,4 @@
-﻿using Custodian.Properties.Estates.Domain.Entities;
-using Custodian.Properties.Estates.Domain.Resources;
+﻿using Custodian.Properties.Estates.Domain.Resources;
 
 namespace Custodian.Properties.Estate.Services.Abstraction
 {

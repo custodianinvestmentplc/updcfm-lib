@@ -11,12 +11,11 @@
 		<Description>Abstraction of the application services related to Property Management</Description>
 		<Copyright>(c) 2023</Copyright>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<Version>1.0.2</Version>
 	</PropertyGroup>
-			<ItemGroup>
-				<ProjectReference Include="..\Custodian.Properties.Estates.Domain\Custodian.Properties.Estates.Domain.csproj" />
-			</ItemGroup>
-			<ItemGroup>
-				<PackageReference Include="Custodian.Properties.Estates.Domain" Version="1.0.0" />
-			</ItemGroup>
+	
+	<ItemGroup>
+		<PackageReference Include="Custodian.Properties.Estates.Domain" Version="1.0.2" />
+	</ItemGroup>
 
 </Project>

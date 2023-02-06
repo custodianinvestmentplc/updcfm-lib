@@ -11,17 +11,13 @@
         <Description>Concrete implementation of estate management services</Description>
         <Copyright>2023</Copyright>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <Version>1.0.3</Version>
     </PropertyGroup>
     
-        <ItemGroup>
-          <ProjectReference Include="..\Custodian.Properties.Estate.Services.Abstraction\Custodian.Properties.Estate.Services.Abstraction.csproj" />
-          <ProjectReference Include="..\Custodian.Properties.Estates.Domain\Custodian.Properties.Estates.Domain.csproj" />
-          <ProjectReference Include="..\Custodian.Properties.Estates.Helpers\Custodian.Properties.Estates.Helpers.csproj" />
-        </ItemGroup>
-        <ItemGroup>
-            <PackageReference Include="Custodian.Properties.Estate.Services.Abstraction" Version="1.0.0" />
-            <PackageReference Include="Custodian.Properties.Estates.Domain" Version="1.0.0" />
-            <PackageReference Include="Custodian.Properties.Estates.Helpers" Version="1.0.0" />
-        </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Custodian.Properties.Estate.Services.Abstraction" Version="1.0.2" />
+        <PackageReference Include="Custodian.Properties.Estates.Domain" Version="1.0.2" />
+        <PackageReference Include="Custodian.Properties.Estates.Helpers" Version="1.0.3" />
+    </ItemGroup>
 
 </Project>

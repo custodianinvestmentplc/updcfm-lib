@@ -6,38 +6,49 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "Custodian.Properties.Estates.Services.Implementation/1.0.0": {
+      "Custodian.Properties.Estates.Services.Implementation/1.0.3": {
         "dependencies": {
-          "Custodian.Properties.Estate.Services.Abstraction": "1.0.0",
-          "Custodian.Properties.Estates.Domain": "1.0.0",
-          "Custodian.Properties.Estates.Helpers": "1.0.1"
+          "Custodian.Properties.Estate.Services.Abstraction": "1.0.2",
+          "Custodian.Properties.Estates.Domain": "1.0.2",
+          "Custodian.Properties.Estates.Helpers": "1.0.3"
         },
         "runtime": {
           "Custodian.Properties.Estates.Services.Implementation.dll": {}
         }
       },
-<<<<<<< HEAD
-=======
-      "Custodian.Properties.Estate.Services.Abstraction/1.0.0": {
+      "Custodian.Properties.Estate.Services.Abstraction/1.0.2": {
         "dependencies": {
-          "Custodian.Properties.Estates.Domain": "1.0.0"
+          "Custodian.Properties.Estates.Domain": "1.0.2"
         },
         "runtime": {
           "lib/net6.0/Custodian.Properties.Estate.Services.Abstraction.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
           }
         }
       },
-      "Custodian.Properties.Estates.Domain/1.0.0": {
+      "Custodian.Properties.Estates.Domain/1.0.2": {
         "runtime": {
           "lib/net6.0/Custodian.Properties.Estates.Domain.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
           }
         }
       },
->>>>>>> d5215f4169e11b1aa9da3a6519ef938ea4c383e7
+      "Custodian.Properties.Estates.Helpers/1.0.3": {
+        "dependencies": {
+          "Custodian.Properties.Estates.Domain": "1.0.2",
+          "Dapper": "2.0.123",
+          "RdsUtilitiesDatabaseLibrary": "1.0.2",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "runtime": {
+          "lib/net6.0/Custodian.Properties.Estates.Helpers.dll": {
+            "assemblyVersion": "1.0.3.0",
+            "fileVersion": "1.0.3.0"
+          }
+        }
+      },
       "Dapper/2.0.123": {
         "runtime": {
           "lib/net5.0/Dapper.dll": {
@@ -131,60 +142,36 @@
           "System.Security.Principal.Windows": "4.7.0"
         }
       },
-      "System.Security.Principal.Windows/4.7.0": {},
-<<<<<<< HEAD
-      "Custodian.Properties.Estate.Services.Abstraction/1.0.0": {
-        "dependencies": {
-          "Custodian.Properties.Estates.Domain": "1.0.0"
-        },
-        "runtime": {
-          "Custodian.Properties.Estate.Services.Abstraction.dll": {}
-        }
-      },
-      "Custodian.Properties.Estates.Domain/1.0.0": {
-        "runtime": {
-          "Custodian.Properties.Estates.Domain.dll": {}
-        }
-      },
-      "Custodian.Properties.Estates.Helpers/1.0.0": {
-=======
-      "Custodian.Properties.Estates.Helpers/1.0.1": {
->>>>>>> d5215f4169e11b1aa9da3a6519ef938ea4c383e7
-        "dependencies": {
-          "Custodian.Properties.Estates.Domain": "1.0.0",
-          "Dapper": "2.0.123",
-          "RdsUtilitiesDatabaseLibrary": "1.0.2",
-          "System.Data.SqlClient": "4.8.5"
-        },
-        "runtime": {
-          "Custodian.Properties.Estates.Helpers.dll": {}
-        }
-      }
+      "System.Security.Principal.Windows/4.7.0": {}
     }
   },
   "libraries": {
-    "Custodian.Properties.Estates.Services.Implementation/1.0.0": {
+    "Custodian.Properties.Estates.Services.Implementation/1.0.3": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-<<<<<<< HEAD
-=======
-    "Custodian.Properties.Estate.Services.Abstraction/1.0.0": {
+    "Custodian.Properties.Estate.Services.Abstraction/1.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-CxZaYuOmzcEtdGhdFDLgb4F3Vfy6gC5qF5GaxuesX4fHYKLjHf4fvTWjCHOgWpDVMyW9Lg+HwyXrX+F6RzXh4w==",
-      "path": "custodian.properties.estate.services.abstraction/1.0.0",
-      "hashPath": "custodian.properties.estate.services.abstraction.1.0.0.nupkg.sha512"
+      "sha512": "sha512-ygx6UeBCvi+AhpihER1VrBFJamHIoM8IyJRT/IbNDoGpnXN4UZITjM8PjjXk55GCxmxQymP9/HsJKYZvHa6F6Q==",
+      "path": "custodian.properties.estate.services.abstraction/1.0.2",
+      "hashPath": "custodian.properties.estate.services.abstraction.1.0.2.nupkg.sha512"
     },
-    "Custodian.Properties.Estates.Domain/1.0.0": {
+    "Custodian.Properties.Estates.Domain/1.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-dTLH2TUYEey/JavKRGJCeQQcRfKs8KkR9O1z8Qrx6j56q4RLfC6tB7csBkA1KpSZyx7rOI9g5J8uoRrIY0xWGQ==",
-      "path": "custodian.properties.estates.domain/1.0.0",
-      "hashPath": "custodian.properties.estates.domain.1.0.0.nupkg.sha512"
+      "sha512": "sha512-pZT0CMSaiSHeXDi6VCiE4cBJvlkCr+inB6c+nJNO5GI5156DUT/hvfhX/zoYOdFl+7h005bnSzvqsjHPgRoZIA==",
+      "path": "custodian.properties.estates.domain/1.0.2",
+      "hashPath": "custodian.properties.estates.domain.1.0.2.nupkg.sha512"
     },
->>>>>>> d5215f4169e11b1aa9da3a6519ef938ea4c383e7
+    "Custodian.Properties.Estates.Helpers/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fW6LgWG9QM6jX1TjTnIlOunB4a8Ey2swzksVqMI3/56opLIYKqFwq3O5e72csi4DHDQuaeVU2QaqRFy1OVC53Q==",
+      "path": "custodian.properties.estates.helpers/1.0.3",
+      "hashPath": "custodian.properties.estates.helpers.1.0.3.nupkg.sha512"
+    },
     "Dapper/2.0.123": {
       "type": "package",
       "serviceable": true,
@@ -261,25 +248,6 @@
       "sha512": "sha512-ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ==",
       "path": "system.security.principal.windows/4.7.0",
       "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
-    },
-<<<<<<< HEAD
-    "Custodian.Properties.Estate.Services.Abstraction/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Custodian.Properties.Estates.Domain/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Custodian.Properties.Estates.Helpers/1.0.0": {
-=======
-    "Custodian.Properties.Estates.Helpers/1.0.1": {
->>>>>>> d5215f4169e11b1aa9da3a6519ef938ea4c383e7
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }
