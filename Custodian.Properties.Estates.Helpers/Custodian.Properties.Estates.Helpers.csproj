@@ -11,18 +11,15 @@
 		<Description>Helper Classes for the Custodian Properties Estate Management Domain Entities</Description>
 		<Copyright>2023</Copyright>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<Version>1.0.1</Version>
 	</PropertyGroup>
 
-  <Choose>
-    <When Condition="'$(Configuration)'=='Debug'">
 			<ItemGroup>
 				<ProjectReference Include="..\Custodian.Properties.Estates.Domain\Custodian.Properties.Estates.Domain.csproj" />
         <PackageReference Include="Dapper" Version="2.0.123" />
         <PackageReference Include="RdsUtilitiesDatabaseLibrary" Version="1.0.2" />
         <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
       </ItemGroup>
-    </When>
-    <Otherwise>
       
 			<ItemGroup>
 				<PackageReference Include="Custodian.Properties.Estates.Domain" Version="1.0.0" />
@@ -30,8 +27,6 @@
 				<PackageReference Include="RdsUtilitiesDatabaseLibrary" Version="1.0.2" />
 				<PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
 			</ItemGroup>
-    </Otherwise>
-  </Choose>
 
 
 </Project>

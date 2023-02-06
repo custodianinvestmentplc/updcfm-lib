@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ISOyuJEc1Pa0HfvrgamvCQ2ZhK21WWLeCJPSP9fbZSDdgiGU42WlnVATO1iuTpciyHFpMeVRII+5p5Yq8AlzXg==",
+  "dgSpecHash": "GuPlLBn8MtiwsURLISz8BceM/bzRUeQgnbin7jGq+GRqf/zzKeMqAa4HIJSwdiDeKyiQYkFhQ7U7pfEEXE0uEg==",
   "success": true,
   "projectFilePath": "C:\\dev\\custodian\\projects\\updcfm-lib\\Custodian.Properties.Estates.Services.Implementation\\Custodian.Properties.Estates.Services.Implementation.csproj",
   "expectedPackageFiles": [
@@ -17,7 +17,7 @@
     "C:\\Users\\Krane Abel\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
     "C:\\Users\\Krane Abel\\.nuget\\packages\\custodian.properties.estate.services.abstraction\\1.0.0\\custodian.properties.estate.services.abstraction.1.0.0.nupkg.sha512",
     "C:\\Users\\Krane Abel\\.nuget\\packages\\custodian.properties.estates.domain\\1.0.0\\custodian.properties.estates.domain.1.0.0.nupkg.sha512",
-    "C:\\Users\\Krane Abel\\.nuget\\packages\\custodian.properties.estates.helpers\\1.0.0\\custodian.properties.estates.helpers.1.0.0.nupkg.sha512"
+    "C:\\Users\\Krane Abel\\.nuget\\packages\\custodian.properties.estates.helpers\\1.0.1\\custodian.properties.estates.helpers.1.0.1.nupkg.sha512"
   ],
   "logs": []
 }

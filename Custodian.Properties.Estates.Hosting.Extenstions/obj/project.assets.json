@@ -211,7 +211,7 @@
           "bin/placeholder/Custodian.Properties.Estates.Domain.dll": {}
         }
       },
-      "Custodian.Properties.Estates.Helpers/1.0.0": {
+      "Custodian.Properties.Estates.Helpers/1.0.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -233,7 +233,7 @@
         "dependencies": {
           "Custodian.Properties.Estate.Services.Abstraction": "1.0.0",
           "Custodian.Properties.Estates.Domain": "1.0.0",
-          "Custodian.Properties.Estates.Helpers": "1.0.0"
+          "Custodian.Properties.Estates.Helpers": "1.0.1"
         },
         "compile": {
           "bin/placeholder/Custodian.Properties.Estates.Services.Implementation.dll": {}
@@ -627,7 +627,7 @@
       "path": "../Custodian.Properties.Estates.Domain/Custodian.Properties.Estates.Domain.csproj",
       "msbuildProject": "../Custodian.Properties.Estates.Domain/Custodian.Properties.Estates.Domain.csproj"
     },
-    "Custodian.Properties.Estates.Helpers/1.0.0": {
+    "Custodian.Properties.Estates.Helpers/1.0.1": {
       "type": "project",
       "path": "../Custodian.Properties.Estates.Helpers/Custodian.Properties.Estates.Helpers.csproj",
       "msbuildProject": "../Custodian.Properties.Estates.Helpers/Custodian.Properties.Estates.Helpers.csproj"
@@ -691,6 +691,14 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Custodian.Properties.Estate.Services.Abstraction": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "Custodian.Properties.Estates.Services.Implementation": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
           "Microsoft.Extensions.DependencyInjection.Abstractions": {
             "target": "Package",
             "version": "[7.0.0, )"

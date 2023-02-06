@@ -43,6 +43,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Custodian.Properties.Estates.Domain": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -119,7 +125,7 @@
       }
     },
     "C:\\dev\\custodian\\projects\\updcfm-lib\\Custodian.Properties.Estates.Helpers\\Custodian.Properties.Estates.Helpers.csproj": {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "restore": {
         "projectUniqueName": "C:\\dev\\custodian\\projects\\updcfm-lib\\Custodian.Properties.Estates.Helpers\\Custodian.Properties.Estates.Helpers.csproj",
         "projectName": "Custodian.Properties.Estates.Helpers",
@@ -158,6 +164,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Custodian.Properties.Estates.Domain": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "Dapper": {
               "target": "Package",
               "version": "[2.0.123, )"
@@ -236,6 +246,20 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Custodian.Properties.Estate.Services.Abstraction": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Custodian.Properties.Estates.Domain": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Custodian.Properties.Estates.Helpers": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

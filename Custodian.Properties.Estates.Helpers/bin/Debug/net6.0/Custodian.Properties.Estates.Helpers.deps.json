@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "Custodian.Properties.Estates.Helpers/1.0.0": {
+      "Custodian.Properties.Estates.Helpers/1.0.1": {
         "dependencies": {
           "Custodian.Properties.Estates.Domain": "1.0.0",
           "Dapper": "2.0.123",
@@ -119,7 +119,7 @@
     }
   },
   "libraries": {
-    "Custodian.Properties.Estates.Helpers/1.0.0": {
+    "Custodian.Properties.Estates.Helpers/1.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
