@@ -14,7 +14,10 @@
 		<Version>1.0.3</Version>
 	</PropertyGroup>
 
+  <Import Project="./SystemConfig/Directory.Build.props" />
+
 	<ItemGroup>
+		<PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
 		<PackageReference Include="Custodian.Properties.Estates.Domain" Version="1.0.2" />
 		<PackageReference Include="Dapper" Version="2.0.123" />
 		<PackageReference Include="RdsUtilitiesDatabaseLibrary" Version="1.0.2" />

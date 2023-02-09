@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "Custodian.Properties.Estates.Helpers/1.0.3": {
         "dependencies": {
+          "BCrypt.Net-Next": "4.0.3",
           "Custodian.Properties.Estates.Domain": "1.0.2",
           "Dapper": "2.0.123",
           "RdsUtilitiesDatabaseLibrary": "1.0.2",
@@ -17,11 +18,11 @@
           "Custodian.Properties.Estates.Helpers.dll": {}
         }
       },
-      "Custodian.Properties.Estates.Domain/1.0.2": {
+      "BCrypt.Net-Next/4.0.3": {
         "runtime": {
-          "lib/net6.0/Custodian.Properties.Estates.Domain.dll": {
-            "assemblyVersion": "1.0.2.0",
-            "fileVersion": "1.0.2.0"
+          "lib/net6.0/BCrypt.Net-Next.dll": {
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.0.3.0"
           }
         }
       },
@@ -118,7 +119,12 @@
           "System.Security.Principal.Windows": "4.7.0"
         }
       },
-      "System.Security.Principal.Windows/4.7.0": {}
+      "System.Security.Principal.Windows/4.7.0": {},
+      "Custodian.Properties.Estates.Domain/1.0.2": {
+        "runtime": {
+          "Custodian.Properties.Estates.Domain.dll": {}
+        }
+      }
     }
   },
   "libraries": {
@@ -127,12 +133,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Custodian.Properties.Estates.Domain/1.0.2": {
+    "BCrypt.Net-Next/4.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-pZT0CMSaiSHeXDi6VCiE4cBJvlkCr+inB6c+nJNO5GI5156DUT/hvfhX/zoYOdFl+7h005bnSzvqsjHPgRoZIA==",
-      "path": "custodian.properties.estates.domain/1.0.2",
-      "hashPath": "custodian.properties.estates.domain.1.0.2.nupkg.sha512"
+      "sha512": "sha512-W+U9WvmZQgi5cX6FS5GDtDoPzUCV4LkBLkywq/kRZhuDwcbavOzcDAr3LXJFqHUi952Yj3LEYoWW0jbEUQChsA==",
+      "path": "bcrypt.net-next/4.0.3",
+      "hashPath": "bcrypt.net-next.4.0.3.nupkg.sha512"
     },
     "Dapper/2.0.123": {
       "type": "package",
@@ -210,6 +216,11 @@
       "sha512": "sha512-ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ==",
       "path": "system.security.principal.windows/4.7.0",
       "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
+    },
+    "Custodian.Properties.Estates.Domain/1.0.2": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

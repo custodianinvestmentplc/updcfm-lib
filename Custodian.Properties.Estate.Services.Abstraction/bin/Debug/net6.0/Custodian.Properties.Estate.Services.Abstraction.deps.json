@@ -16,10 +16,7 @@
       },
       "Custodian.Properties.Estates.Domain/1.0.2": {
         "runtime": {
-          "lib/net6.0/Custodian.Properties.Estates.Domain.dll": {
-            "assemblyVersion": "1.0.2.0",
-            "fileVersion": "1.0.2.0"
-          }
+          "Custodian.Properties.Estates.Domain.dll": {}
         }
       }
     }
@@ -31,11 +28,9 @@
       "sha512": ""
     },
     "Custodian.Properties.Estates.Domain/1.0.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-pZT0CMSaiSHeXDi6VCiE4cBJvlkCr+inB6c+nJNO5GI5156DUT/hvfhX/zoYOdFl+7h005bnSzvqsjHPgRoZIA==",
-      "path": "custodian.properties.estates.domain/1.0.2",
-      "hashPath": "custodian.properties.estates.domain.1.0.2.nupkg.sha512"
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

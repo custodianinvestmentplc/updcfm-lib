@@ -1,4 +1,5 @@
 ﻿using Custodian.Properties.Estate.Services.Abstraction;
+using Custodian.Properties.Estates.Domain.Dto;
 using Custodian.Properties.Estates.Domain.Entities;
 using Custodian.Properties.Estates.Domain.Resources;
 using Custodian.Properties.Estates.Helpers.Domains;
@@ -36,6 +37,12 @@ namespace Custodian.Properties.Estates.Services.Implementation
             }
 
             throw new ArgumentException("Bad Request. Cannot process command");
+        }
+
+        public Resident ResidentCreatePassword(ResidentDto resident, string password)
+        {
+            Resident updateResident = ResidentHelper.ResidentCreatePassword(_db, resident, password);
+            return updateResident;
         }
 
         public void ProcessLoginRequest(string residentId)
