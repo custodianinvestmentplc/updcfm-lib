@@ -19,9 +19,6 @@ namespace Custodian.Properties.Estates.Domain.Entities
         [JsonPropertyName("activation_stage")]
         public string Activation_Stage { get; set; } = string.Empty;
 
-        [JsonPropertyName("password")]
-        public string Password_Hash { get; set; } = string.Empty;
-
         [JsonPropertyName("contacts")]
         public List<ResidentContact> Contacts { get; set; } = new List<ResidentContact>();
     }

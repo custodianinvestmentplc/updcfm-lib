@@ -1,5 +1,7 @@
-﻿using Custodian.Properties.Estates.Domain.Entities;
+﻿using Custodian.Properties.Estates.Domain.Dto;
+using Custodian.Properties.Estates.Domain.Entities;
 using Custodian.Properties.Estates.Domain.Resources;
+using Custodian.Properties.Estates.Helpers.Services;
 using Dapper;
 using Rds.Utilities.Database.ReadWrite;
 using System.Data;
@@ -88,6 +90,34 @@ namespace Custodian.Properties.Estates.Helpers.Domains
             }
 
             throw new KeyNotFoundException($"Resident with Id of {id} was not found.");
+        }
+
+        public static Resident ResidentCreatePassword(IDbConnection db, ResidentDto resident, string password)
+        {
+            string sp = "dbo.resident_create_password";
+            DynamicParameters prm = new DynamicParameters();
+
+            var password_hash = Encryption.EnhanceHashPasswordWithBcrypt(password);
+            
+           
+            prm.Add("@resident_id", resident.Id);
+            prm.Add("@password", password_hash);
+
+            DbStore.SaveData(db, sp, prm);
+
+            string storedP = "dbo.find_resident";
+            DynamicParameters par = new DynamicParameters();
+
+            par.Add("@resident_id", resident.Id);
+
+            var updatedResident = DbStore.LoadData<Resident>(db, storedP, par);
+
+            if (updatedResident != null && updatedResident.Count == 1)
+            {
+                return updatedResident[0];
+            }
+
+            throw new KeyNotFoundException($"Resident with Id of {resident.Id} was not found.");
         }
 
         public static void Login(IDbConnection db, string residentId)

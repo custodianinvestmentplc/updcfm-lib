@@ -2,13 +2,17 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "Custodian.Properties.Estates.Domain/1.0.2": {
+      "BCrypt.Net-Next/4.0.3": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Custodian.Properties.Estates.Domain.dll": {}
+          "lib/net6.0/BCrypt.Net-Next.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/Custodian.Properties.Estates.Domain.dll": {}
+          "lib/net6.0/BCrypt.Net-Next.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Dapper/2.0.123": {
@@ -180,20 +184,49 @@
             "rid": "win"
           }
         }
+      },
+      "Custodian.Properties.Estates.Domain/1.0.2": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Custodian.Properties.Estates.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Custodian.Properties.Estates.Domain.dll": {}
+        }
       }
     }
   },
   "libraries": {
-    "Custodian.Properties.Estates.Domain/1.0.2": {
-      "sha512": "pZT0CMSaiSHeXDi6VCiE4cBJvlkCr+inB6c+nJNO5GI5156DUT/hvfhX/zoYOdFl+7h005bnSzvqsjHPgRoZIA==",
+    "BCrypt.Net-Next/4.0.3": {
+      "sha512": "W+U9WvmZQgi5cX6FS5GDtDoPzUCV4LkBLkywq/kRZhuDwcbavOzcDAr3LXJFqHUi952Yj3LEYoWW0jbEUQChsA==",
       "type": "package",
-      "path": "custodian.properties.estates.domain/1.0.2",
+      "path": "bcrypt.net-next/4.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "custodian.properties.estates.domain.1.0.2.nupkg.sha512",
-        "custodian.properties.estates.domain.nuspec",
-        "lib/net6.0/Custodian.Properties.Estates.Domain.dll"
+        "bcrypt.net-next.4.0.3.nupkg.sha512",
+        "bcrypt.net-next.nuspec",
+        "ico.png",
+        "lib/net20/BCrypt.Net-Next.dll",
+        "lib/net20/BCrypt.Net-Next.xml",
+        "lib/net35/BCrypt.Net-Next.dll",
+        "lib/net35/BCrypt.Net-Next.xml",
+        "lib/net462/BCrypt.Net-Next.dll",
+        "lib/net462/BCrypt.Net-Next.xml",
+        "lib/net472/BCrypt.Net-Next.dll",
+        "lib/net472/BCrypt.Net-Next.xml",
+        "lib/net48/BCrypt.Net-Next.dll",
+        "lib/net48/BCrypt.Net-Next.xml",
+        "lib/net5.0/BCrypt.Net-Next.dll",
+        "lib/net5.0/BCrypt.Net-Next.xml",
+        "lib/net6.0/BCrypt.Net-Next.dll",
+        "lib/net6.0/BCrypt.Net-Next.xml",
+        "lib/netstandard2.0/BCrypt.Net-Next.dll",
+        "lib/netstandard2.0/BCrypt.Net-Next.xml",
+        "lib/netstandard2.1/BCrypt.Net-Next.dll",
+        "lib/netstandard2.1/BCrypt.Net-Next.xml",
+        "readme.md"
       ]
     },
     "Dapper/2.0.123": {
@@ -538,10 +571,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Custodian.Properties.Estates.Domain/1.0.2": {
+      "type": "project",
+      "path": "../Custodian.Properties.Estates.Domain/Custodian.Properties.Estates.Domain.csproj",
+      "msbuildProject": "../Custodian.Properties.Estates.Domain/Custodian.Properties.Estates.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "BCrypt.Net-Next >= 4.0.3",
       "Custodian.Properties.Estates.Domain >= 1.0.2",
       "Dapper >= 2.0.123",
       "RdsUtilitiesDatabaseLibrary >= 1.0.2",
@@ -549,19 +588,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dogiugo\\.nuget\\packages\\": {}
+    "C:\\Users\\Krane Abel\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.3",
     "restore": {
-      "projectUniqueName": "C:\\dev\\custodian\\updc-fm\\Custodian.Updcfm\\Custodian.Properties.Estates.Helpers\\Custodian.Properties.Estates.Helpers.csproj",
+      "projectUniqueName": "C:\\dev\\custodian\\projects\\updcfm-lib\\Custodian.Properties.Estates.Helpers\\Custodian.Properties.Estates.Helpers.csproj",
       "projectName": "Custodian.Properties.Estates.Helpers",
-      "projectPath": "C:\\dev\\custodian\\updc-fm\\Custodian.Updcfm\\Custodian.Properties.Estates.Helpers\\Custodian.Properties.Estates.Helpers.csproj",
-      "packagesPath": "C:\\Users\\dogiugo\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\custodian\\updc-fm\\Custodian.Updcfm\\Custodian.Properties.Estates.Helpers\\obj\\",
+      "projectPath": "C:\\dev\\custodian\\projects\\updcfm-lib\\Custodian.Properties.Estates.Helpers\\Custodian.Properties.Estates.Helpers.csproj",
+      "packagesPath": "C:\\Users\\Krane Abel\\.nuget\\packages\\",
+      "outputPath": "C:\\dev\\custodian\\projects\\updcfm-lib\\Custodian.Properties.Estates.Helpers\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\dogiugo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Krane Abel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -574,7 +613,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\dev\\custodian\\projects\\updcfm-lib\\Custodian.Properties.Estates.Domain\\Custodian.Properties.Estates.Domain.csproj": {
+              "projectPath": "C:\\dev\\custodian\\projects\\updcfm-lib\\Custodian.Properties.Estates.Domain\\Custodian.Properties.Estates.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -587,6 +630,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "BCrypt.Net-Next": {
+            "target": "Package",
+            "version": "[4.0.3, )"
+          },
           "Custodian.Properties.Estates.Domain": {
             "target": "Package",
             "version": "[1.0.2, )"
@@ -620,7 +667,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

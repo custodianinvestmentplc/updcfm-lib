@@ -1,5 +1,4 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
     <PropertyGroup>
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
@@ -13,11 +12,13 @@
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <Version>1.0.3</Version>
     </PropertyGroup>
-    
+
+    <Import Project="./SystemConfig/Directory.Build.props" />
+  
     <ItemGroup>
         <PackageReference Include="Custodian.Properties.Estate.Services.Abstraction" Version="1.0.2" />
         <PackageReference Include="Custodian.Properties.Estates.Domain" Version="1.0.2" />
         <PackageReference Include="Custodian.Properties.Estates.Helpers" Version="1.0.3" />
     </ItemGroup>
-
+  
 </Project>
