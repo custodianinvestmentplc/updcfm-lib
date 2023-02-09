@@ -15,6 +15,15 @@
           }
         }
       },
+      "Custodian.Properties.Estates.Domain/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Custodian.Properties.Estates.Domain.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Custodian.Properties.Estates.Domain.dll": {}
+        }
+      },
       "Dapper/2.0.123": {
         "type": "package",
         "compile": {
@@ -184,16 +193,6 @@
             "rid": "win"
           }
         }
-      },
-      "Custodian.Properties.Estates.Domain/1.0.2": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/Custodian.Properties.Estates.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Custodian.Properties.Estates.Domain.dll": {}
-        }
       }
     }
   },
@@ -227,6 +226,18 @@
         "lib/netstandard2.1/BCrypt.Net-Next.dll",
         "lib/netstandard2.1/BCrypt.Net-Next.xml",
         "readme.md"
+      ]
+    },
+    "Custodian.Properties.Estates.Domain/1.0.3": {
+      "sha512": "xR3IqyFT6hkFyTgbrKDIKi+O4ag4kitgJcuMFLXe0oWf2iDVoGawyZl5fjlKubhrX8jZKfKpDQ9RdhmoL75hFw==",
+      "type": "package",
+      "path": "custodian.properties.estates.domain/1.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "custodian.properties.estates.domain.1.0.3.nupkg.sha512",
+        "custodian.properties.estates.domain.nuspec",
+        "lib/net6.0/Custodian.Properties.Estates.Domain.dll"
       ]
     },
     "Dapper/2.0.123": {
@@ -571,36 +582,31 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "Custodian.Properties.Estates.Domain/1.0.2": {
-      "type": "project",
-      "path": "../Custodian.Properties.Estates.Domain/Custodian.Properties.Estates.Domain.csproj",
-      "msbuildProject": "../Custodian.Properties.Estates.Domain/Custodian.Properties.Estates.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "BCrypt.Net-Next >= 4.0.3",
-      "Custodian.Properties.Estates.Domain >= 1.0.2",
+      "Custodian.Properties.Estates.Domain >= 1.0.3",
       "Dapper >= 2.0.123",
       "RdsUtilitiesDatabaseLibrary >= 1.0.2",
       "System.Data.SqlClient >= 4.8.5"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Krane Abel\\.nuget\\packages\\": {}
+    "C:\\Users\\dogiugo\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.0.3",
+    "version": "1.0.4",
     "restore": {
-      "projectUniqueName": "C:\\dev\\custodian\\projects\\updcfm-lib\\Custodian.Properties.Estates.Helpers\\Custodian.Properties.Estates.Helpers.csproj",
+      "projectUniqueName": "C:\\dev\\custodian\\updc-fm\\Custodian.Updcfm\\Custodian.Properties.Estates.Helpers\\Custodian.Properties.Estates.Helpers.csproj",
       "projectName": "Custodian.Properties.Estates.Helpers",
-      "projectPath": "C:\\dev\\custodian\\projects\\updcfm-lib\\Custodian.Properties.Estates.Helpers\\Custodian.Properties.Estates.Helpers.csproj",
-      "packagesPath": "C:\\Users\\Krane Abel\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\custodian\\projects\\updcfm-lib\\Custodian.Properties.Estates.Helpers\\obj\\",
+      "projectPath": "C:\\dev\\custodian\\updc-fm\\Custodian.Updcfm\\Custodian.Properties.Estates.Helpers\\Custodian.Properties.Estates.Helpers.csproj",
+      "packagesPath": "C:\\Users\\dogiugo\\.nuget\\packages\\",
+      "outputPath": "C:\\dev\\custodian\\updc-fm\\Custodian.Updcfm\\Custodian.Properties.Estates.Helpers\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Krane Abel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dogiugo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -613,11 +619,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "C:\\dev\\custodian\\projects\\updcfm-lib\\Custodian.Properties.Estates.Domain\\Custodian.Properties.Estates.Domain.csproj": {
-              "projectPath": "C:\\dev\\custodian\\projects\\updcfm-lib\\Custodian.Properties.Estates.Domain\\Custodian.Properties.Estates.Domain.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -636,7 +638,7 @@
           },
           "Custodian.Properties.Estates.Domain": {
             "target": "Package",
-            "version": "[1.0.2, )"
+            "version": "[1.0.3, )"
           },
           "Dapper": {
             "target": "Package",
@@ -667,7 +669,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

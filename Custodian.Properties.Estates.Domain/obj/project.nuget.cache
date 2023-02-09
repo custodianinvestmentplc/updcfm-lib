@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SzONGP6x9PTuXtDAByYOy9qW2Eb6s9zJIa5ABfEWMFCUN8Jl+rFHjSB7Mxu0XybwmJbedN1FO+N4ds5sWEP7MA==",
+  "dgSpecHash": "ky+K94+o+NrpyqB1jkNmHw4pnBWqugue0Uz6AM75DzbPiQLLNwI3JpPbv/huA/VRh0QWKaQIKRrZ5Q/Iay/tKQ==",
   "success": true,
-  "projectFilePath": "C:\\dev\\custodian\\projects\\updcfm-lib\\Custodian.Properties.Estates.Domain\\Custodian.Properties.Estates.Domain.csproj",
+  "projectFilePath": "C:\\dev\\custodian\\updc-fm\\Custodian.Updcfm\\Custodian.Properties.Estates.Domain\\Custodian.Properties.Estates.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

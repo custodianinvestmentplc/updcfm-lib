@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "s0MHxgEbkobgkCMk31CU9aEaLMdANthd8wKm2NFdxu4JOtXZ+gpATV1wRY/XqwNSijcKzcQEprPNCyr8Vti36w==",
+  "dgSpecHash": "expwCNYAd/CD20TUIwtQvZuZh7Q484tGYdbvLXjuQqkzoLDOMPRHlITiKV2WJ3NXYhLWTOJ5ZQ+1NaPpzI0ElA==",
   "success": true,
-  "projectFilePath": "C:\\dev\\custodian\\projects\\updcfm-lib\\Custodian.Properties.Estate.Services.Abstraction\\Custodian.Properties.Estate.Services.Abstraction.csproj",
+  "projectFilePath": "C:\\dev\\custodian\\updc-fm\\Custodian.Updcfm\\Custodian.Properties.Estate.Services.Abstraction\\Custodian.Properties.Estate.Services.Abstraction.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Krane Abel\\.nuget\\packages\\custodian.properties.estates.domain\\1.0.2\\custodian.properties.estates.domain.1.0.2.nupkg.sha512"
+    "C:\\Users\\dogiugo\\.nuget\\packages\\custodian.properties.estates.domain\\1.0.3\\custodian.properties.estates.domain.1.0.3.nupkg.sha512"
   ],
   "logs": []
 }

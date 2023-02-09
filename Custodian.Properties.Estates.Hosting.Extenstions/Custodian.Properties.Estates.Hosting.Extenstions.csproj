@@ -11,14 +11,16 @@
     <Description>A library to enable dependency injection of Custodian Properties Services into any .Net Core application</Description>
     <Copyright>2023</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Version>1.2.4</Version>
+    <Version>1.2.5</Version>
   </PropertyGroup>
 
+	<!--
   <Import Project="./SystemConfig/Directory.Build.props" />
-  
+  -->
+	
   <ItemGroup>
-      <PackageReference Include="Custodian.Properties.Estate.Services.Abstraction" Version="1.0.2" />
-      <PackageReference Include="Custodian.Properties.Estates.Services.Implementation" Version="1.0.3" />
+      <PackageReference Include="Custodian.Properties.Estate.Services.Abstraction" Version="1.0.3" />
+      <PackageReference Include="Custodian.Properties.Estates.Services.Implementation" Version="1.0.4" />
       <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
   </ItemGroup>
 </Project>

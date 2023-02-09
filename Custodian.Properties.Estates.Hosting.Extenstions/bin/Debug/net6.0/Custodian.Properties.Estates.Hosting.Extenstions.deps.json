@@ -6,10 +6,10 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "Custodian.Properties.Estates.Hosting.Extenstions/1.2.4": {
+      "Custodian.Properties.Estates.Hosting.Extenstions/1.2.5": {
         "dependencies": {
-          "Custodian.Properties.Estate.Services.Abstraction": "1.0.2",
-          "Custodian.Properties.Estates.Services.Implementation": "1.0.3",
+          "Custodian.Properties.Estate.Services.Abstraction": "1.0.3",
+          "Custodian.Properties.Estates.Services.Implementation": "1.0.4",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
         },
         "runtime": {
@@ -24,9 +24,51 @@
           }
         }
       },
-      "Custodian.Properties.Estates.Domain/1.0.2": {
+      "Custodian.Properties.Estate.Services.Abstraction/1.0.3": {
+        "dependencies": {
+          "Custodian.Properties.Estates.Domain": "1.0.3"
+        },
         "runtime": {
-          "Custodian.Properties.Estates.Domain.dll": {}
+          "lib/net6.0/Custodian.Properties.Estate.Services.Abstraction.dll": {
+            "assemblyVersion": "1.0.3.0",
+            "fileVersion": "1.0.3.0"
+          }
+        }
+      },
+      "Custodian.Properties.Estates.Domain/1.0.3": {
+        "runtime": {
+          "lib/net6.0/Custodian.Properties.Estates.Domain.dll": {
+            "assemblyVersion": "1.0.3.0",
+            "fileVersion": "1.0.3.0"
+          }
+        }
+      },
+      "Custodian.Properties.Estates.Helpers/1.0.4": {
+        "dependencies": {
+          "BCrypt.Net-Next": "4.0.3",
+          "Custodian.Properties.Estates.Domain": "1.0.3",
+          "Dapper": "2.0.123",
+          "RdsUtilitiesDatabaseLibrary": "1.0.2",
+          "System.Data.SqlClient": "4.8.5"
+        },
+        "runtime": {
+          "lib/net6.0/Custodian.Properties.Estates.Helpers.dll": {
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
+          }
+        }
+      },
+      "Custodian.Properties.Estates.Services.Implementation/1.0.4": {
+        "dependencies": {
+          "Custodian.Properties.Estate.Services.Abstraction": "1.0.3",
+          "Custodian.Properties.Estates.Domain": "1.0.3",
+          "Custodian.Properties.Estates.Helpers": "1.0.4"
+        },
+        "runtime": {
+          "lib/net6.0/Custodian.Properties.Estates.Services.Implementation.dll": {
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
+          }
         }
       },
       "Dapper/2.0.123": {
@@ -130,41 +172,11 @@
           "System.Security.Principal.Windows": "4.7.0"
         }
       },
-      "System.Security.Principal.Windows/4.7.0": {},
-      "Custodian.Properties.Estate.Services.Abstraction/1.0.2": {
-        "dependencies": {
-          "Custodian.Properties.Estates.Domain": "1.0.2"
-        },
-        "runtime": {
-          "Custodian.Properties.Estate.Services.Abstraction.dll": {}
-        }
-      },
-      "Custodian.Properties.Estates.Helpers/1.0.3": {
-        "dependencies": {
-          "BCrypt.Net-Next": "4.0.3",
-          "Custodian.Properties.Estates.Domain": "1.0.2",
-          "Dapper": "2.0.123",
-          "RdsUtilitiesDatabaseLibrary": "1.0.2",
-          "System.Data.SqlClient": "4.8.5"
-        },
-        "runtime": {
-          "Custodian.Properties.Estates.Helpers.dll": {}
-        }
-      },
-      "Custodian.Properties.Estates.Services.Implementation/1.0.3": {
-        "dependencies": {
-          "Custodian.Properties.Estate.Services.Abstraction": "1.0.2",
-          "Custodian.Properties.Estates.Domain": "1.0.2",
-          "Custodian.Properties.Estates.Helpers": "1.0.3"
-        },
-        "runtime": {
-          "Custodian.Properties.Estates.Services.Implementation.dll": {}
-        }
-      }
+      "System.Security.Principal.Windows/4.7.0": {}
     }
   },
   "libraries": {
-    "Custodian.Properties.Estates.Hosting.Extenstions/1.2.4": {
+    "Custodian.Properties.Estates.Hosting.Extenstions/1.2.5": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -176,10 +188,33 @@
       "path": "bcrypt.net-next/4.0.3",
       "hashPath": "bcrypt.net-next.4.0.3.nupkg.sha512"
     },
-    "Custodian.Properties.Estates.Domain/1.0.2": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
+    "Custodian.Properties.Estate.Services.Abstraction/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GlBu3Swp6DNO60pvlDW13D+aSqAPYE0EPT1dUgmhFRyB5juiLLgPqcxp5+xx7wJTHo9Bzr2ix54BkV7+zTONPA==",
+      "path": "custodian.properties.estate.services.abstraction/1.0.3",
+      "hashPath": "custodian.properties.estate.services.abstraction.1.0.3.nupkg.sha512"
+    },
+    "Custodian.Properties.Estates.Domain/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xR3IqyFT6hkFyTgbrKDIKi+O4ag4kitgJcuMFLXe0oWf2iDVoGawyZl5fjlKubhrX8jZKfKpDQ9RdhmoL75hFw==",
+      "path": "custodian.properties.estates.domain/1.0.3",
+      "hashPath": "custodian.properties.estates.domain.1.0.3.nupkg.sha512"
+    },
+    "Custodian.Properties.Estates.Helpers/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oy+LpCXiWv8aoWdHIyyDYi+xl+Wkwfk8WMuk3QHSLAr0mkfrBJWvs9d/FVx2n4FvB4cZsOjI7S/SiioOD8zJVA==",
+      "path": "custodian.properties.estates.helpers/1.0.4",
+      "hashPath": "custodian.properties.estates.helpers.1.0.4.nupkg.sha512"
+    },
+    "Custodian.Properties.Estates.Services.Implementation/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-E/ZidlubZ2l7ZHHRUZWijq6raUBjIvchOs8G9AW2IyGIA8Oe59B55hAe/PpUHec5zBa7Jzr+xrdZ9Ab+jkncJw==",
+      "path": "custodian.properties.estates.services.implementation/1.0.4",
+      "hashPath": "custodian.properties.estates.services.implementation.1.0.4.nupkg.sha512"
     },
     "Dapper/2.0.123": {
       "type": "package",
@@ -264,21 +299,6 @@
       "sha512": "sha512-ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ==",
       "path": "system.security.principal.windows/4.7.0",
       "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
-    },
-    "Custodian.Properties.Estate.Services.Abstraction/1.0.2": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Custodian.Properties.Estates.Helpers/1.0.3": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Custodian.Properties.Estates.Services.Implementation/1.0.3": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }
