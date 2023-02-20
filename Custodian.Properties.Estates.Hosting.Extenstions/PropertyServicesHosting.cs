@@ -15,6 +15,12 @@ namespace Custodian.Properties.Estates.Hosting.Extenstions
                 return serviceInstance;
             });
 
+            services.AddScoped<IAdminServices, AdminServices>(s =>
+            {
+                var serviceInstance = new AdminServices(constring);
+                return serviceInstance;
+            });
+
             return services;
         }
     }

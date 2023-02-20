@@ -120,6 +120,32 @@ namespace Custodian.Properties.Estates.Helpers.Domains
             throw new KeyNotFoundException($"Resident with Id of {resident.Id} was not found.");
         }
 
+        public static ResidentResource ResidentLogin(IDbConnection db, string email, string password)
+        {
+            string sp = "dbo.find_resident";
+
+            DynamicParameters prm = new DynamicParameters();
+
+            prm.Add("@email_address", email);
+
+            var residentProfile = DbStore.LoadData<ResidentResource>(db, sp, prm);
+
+            if(residentProfile != null && residentProfile.Count == 1)
+            {
+                ResidentResource profile = residentProfile[0];
+
+                bool password_hash = Encryption.VerifyEnhancePasswordWithBcrypt(profile.Password_Hash, password);
+
+                if (password_hash)
+                {
+                    return profile;
+                }
+
+                throw new Exception("Invalid Credential");
+            }
+
+            throw new Exception("Something went wrong");
+        }
         public static void Login(IDbConnection db, string residentId)
         {
             throw new NotImplementedException();

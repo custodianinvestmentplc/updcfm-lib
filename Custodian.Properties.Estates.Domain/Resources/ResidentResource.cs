@@ -23,14 +23,16 @@ namespace Custodian.Properties.Estates.Domain.Resources
         [JsonPropertyName("activation_stage")]
         public string Activation_Stage { get; set; } = string.Empty;
 
-        [JsonPropertyName("password")]
+        [JsonPropertyName("password_hash")]
         public string Password_Hash { get; set; } = string.Empty;
 
         [JsonPropertyName("contacts")]
         public List<ResidentContact> Contacts { get; set; } = new List<ResidentContact>();
 
         [JsonPropertyName("unit")]
-        public Unit unit { get; set; } = new Unit();
+        public Unit Unit { get; set; } = new Unit();
+
+        public string Token { get; set; } = string.Empty;
 
     }
 }

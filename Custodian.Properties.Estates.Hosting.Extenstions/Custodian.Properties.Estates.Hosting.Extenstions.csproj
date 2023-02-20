@@ -14,10 +14,6 @@
     <Version>1.2.5</Version>
   </PropertyGroup>
 
-	<!--
-  <Import Project="./SystemConfig/Directory.Build.props" />
-  -->
-	
   <ItemGroup>
       <PackageReference Include="Custodian.Properties.Estate.Services.Abstraction" Version="1.0.3" />
       <PackageReference Include="Custodian.Properties.Estates.Services.Implementation" Version="1.0.4" />

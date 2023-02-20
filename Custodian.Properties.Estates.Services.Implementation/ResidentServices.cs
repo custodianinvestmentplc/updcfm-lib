@@ -30,7 +30,7 @@ namespace Custodian.Properties.Estates.Services.Implementation
                 Unit unit = ResidentHelper.GetResidentUnit(_db, resident.Id);
                 unit.EstateInfomation = ResidentHelper.GetResidentEstate(_db, resident.Id);
 
-                resident.unit = unit;
+                resident.Unit = unit;
 
 
                 return resident;
@@ -43,6 +43,14 @@ namespace Custodian.Properties.Estates.Services.Implementation
         {
             Resident updateResident = ResidentHelper.ResidentCreatePassword(_db, resident, password);
             return updateResident;
+        }
+
+        public ResidentResource ResidentLogin(string email, string password)
+        {
+
+            var loggedIn = ResidentHelper.ResidentLogin(_db, email, password);
+
+            return loggedIn;
         }
 
         public void ProcessLoginRequest(string residentId)

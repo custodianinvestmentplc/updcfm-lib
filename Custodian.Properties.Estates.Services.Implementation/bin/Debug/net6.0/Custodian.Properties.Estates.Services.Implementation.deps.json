@@ -24,40 +24,6 @@
           }
         }
       },
-      "Custodian.Properties.Estate.Services.Abstraction/1.0.3": {
-        "dependencies": {
-          "Custodian.Properties.Estates.Domain": "1.0.3"
-        },
-        "runtime": {
-          "lib/net6.0/Custodian.Properties.Estate.Services.Abstraction.dll": {
-            "assemblyVersion": "1.0.3.0",
-            "fileVersion": "1.0.3.0"
-          }
-        }
-      },
-      "Custodian.Properties.Estates.Domain/1.0.3": {
-        "runtime": {
-          "lib/net6.0/Custodian.Properties.Estates.Domain.dll": {
-            "assemblyVersion": "1.0.3.0",
-            "fileVersion": "1.0.3.0"
-          }
-        }
-      },
-      "Custodian.Properties.Estates.Helpers/1.0.4": {
-        "dependencies": {
-          "BCrypt.Net-Next": "4.0.3",
-          "Custodian.Properties.Estates.Domain": "1.0.3",
-          "Dapper": "2.0.123",
-          "RdsUtilitiesDatabaseLibrary": "1.0.2",
-          "System.Data.SqlClient": "4.8.5"
-        },
-        "runtime": {
-          "lib/net6.0/Custodian.Properties.Estates.Helpers.dll": {
-            "assemblyVersion": "1.0.4.0",
-            "fileVersion": "1.0.4.0"
-          }
-        }
-      },
       "Dapper/2.0.123": {
         "runtime": {
           "lib/net5.0/Dapper.dll": {
@@ -66,7 +32,55 @@
           }
         }
       },
+      "Microsoft.CSharp/4.5.0": {},
+      "Microsoft.IdentityModel.Abstractions/6.26.1": {
+        "runtime": {
+          "lib/net6.0/Microsoft.IdentityModel.Abstractions.dll": {
+            "assemblyVersion": "6.26.1.0",
+            "fileVersion": "6.26.1.40207"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.JsonWebTokens/6.26.1": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": "6.26.1",
+          "System.Text.Encoding": "4.3.0",
+          "System.Text.Encodings.Web": "4.7.2",
+          "System.Text.Json": "4.7.2"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll": {
+            "assemblyVersion": "6.26.1.0",
+            "fileVersion": "6.26.1.40207"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Logging/6.26.1": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Abstractions": "6.26.1"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.IdentityModel.Logging.dll": {
+            "assemblyVersion": "6.26.1.0",
+            "fileVersion": "6.26.1.40207"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/6.26.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "Microsoft.IdentityModel.Logging": "6.26.1",
+          "System.Security.Cryptography.Cng": "4.5.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.IdentityModel.Tokens.dll": {
+            "assemblyVersion": "6.26.1.0",
+            "fileVersion": "6.26.1.40207"
+          }
+        }
+      },
       "Microsoft.NETCore.Platforms/3.1.0": {},
+      "Microsoft.NETCore.Targets/1.1.0": {},
       "Microsoft.Win32.Registry/4.7.0": {
         "dependencies": {
           "System.Security.AccessControl": "4.7.0",
@@ -145,13 +159,68 @@
           }
         }
       },
+      "System.IdentityModel.Tokens.Jwt/6.26.1": {
+        "dependencies": {
+          "Microsoft.IdentityModel.JsonWebTokens": "6.26.1",
+          "Microsoft.IdentityModel.Tokens": "6.26.1"
+        },
+        "runtime": {
+          "lib/net6.0/System.IdentityModel.Tokens.Jwt.dll": {
+            "assemblyVersion": "6.26.1.0",
+            "fileVersion": "6.26.1.40207"
+          }
+        }
+      },
+      "System.Runtime/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0"
+        }
+      },
       "System.Security.AccessControl/4.7.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
           "System.Security.Principal.Windows": "4.7.0"
         }
       },
-      "System.Security.Principal.Windows/4.7.0": {}
+      "System.Security.Cryptography.Cng/4.5.0": {},
+      "System.Security.Principal.Windows/4.7.0": {},
+      "System.Text.Encoding/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Text.Encodings.Web/4.7.2": {},
+      "System.Text.Json/4.7.2": {},
+      "Custodian.Properties.Estate.Services.Abstraction/1.0.3": {
+        "dependencies": {
+          "Custodian.Properties.Estates.Domain": "1.0.3"
+        },
+        "runtime": {
+          "Custodian.Properties.Estate.Services.Abstraction.dll": {}
+        }
+      },
+      "Custodian.Properties.Estates.Domain/1.0.3": {
+        "runtime": {
+          "Custodian.Properties.Estates.Domain.dll": {}
+        }
+      },
+      "Custodian.Properties.Estates.Helpers/1.0.4": {
+        "dependencies": {
+          "BCrypt.Net-Next": "4.0.3",
+          "Custodian.Properties.Estates.Domain": "1.0.3",
+          "Dapper": "2.0.123",
+          "Microsoft.IdentityModel.Tokens": "6.26.1",
+          "RdsUtilitiesDatabaseLibrary": "1.0.2",
+          "System.Data.SqlClient": "4.8.5",
+          "System.IdentityModel.Tokens.Jwt": "6.26.1"
+        },
+        "runtime": {
+          "Custodian.Properties.Estates.Helpers.dll": {}
+        }
+      }
     }
   },
   "libraries": {
@@ -167,27 +236,6 @@
       "path": "bcrypt.net-next/4.0.3",
       "hashPath": "bcrypt.net-next.4.0.3.nupkg.sha512"
     },
-    "Custodian.Properties.Estate.Services.Abstraction/1.0.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-GlBu3Swp6DNO60pvlDW13D+aSqAPYE0EPT1dUgmhFRyB5juiLLgPqcxp5+xx7wJTHo9Bzr2ix54BkV7+zTONPA==",
-      "path": "custodian.properties.estate.services.abstraction/1.0.3",
-      "hashPath": "custodian.properties.estate.services.abstraction.1.0.3.nupkg.sha512"
-    },
-    "Custodian.Properties.Estates.Domain/1.0.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-xR3IqyFT6hkFyTgbrKDIKi+O4ag4kitgJcuMFLXe0oWf2iDVoGawyZl5fjlKubhrX8jZKfKpDQ9RdhmoL75hFw==",
-      "path": "custodian.properties.estates.domain/1.0.3",
-      "hashPath": "custodian.properties.estates.domain.1.0.3.nupkg.sha512"
-    },
-    "Custodian.Properties.Estates.Helpers/1.0.4": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-oy+LpCXiWv8aoWdHIyyDYi+xl+Wkwfk8WMuk3QHSLAr0mkfrBJWvs9d/FVx2n4FvB4cZsOjI7S/SiioOD8zJVA==",
-      "path": "custodian.properties.estates.helpers/1.0.4",
-      "hashPath": "custodian.properties.estates.helpers.1.0.4.nupkg.sha512"
-    },
     "Dapper/2.0.123": {
       "type": "package",
       "serviceable": true,
@@ -195,12 +243,54 @@
       "path": "dapper/2.0.123",
       "hashPath": "dapper.2.0.123.nupkg.sha512"
     },
+    "Microsoft.CSharp/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
+      "path": "microsoft.csharp/4.5.0",
+      "hashPath": "microsoft.csharp.4.5.0.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Abstractions/6.26.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YE6pc6/TG1axQU5U1zGmgpcV4vKhEl4t0MTjqxdnnrorrozeBPkTECyZk9djysKTLfd8moBe7VHVpuf+jvmlkA==",
+      "path": "microsoft.identitymodel.abstractions/6.26.1",
+      "hashPath": "microsoft.identitymodel.abstractions.6.26.1.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.JsonWebTokens/6.26.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3n+Pdetj8JukY3hSTLiLhZHpxq9m9dai0k3OK0UrNIhaAP+N8ea5gYoFSu2gdOJELbirc5OW4oyjaTvQaefF0w==",
+      "path": "microsoft.identitymodel.jsonwebtokens/6.26.1",
+      "hashPath": "microsoft.identitymodel.jsonwebtokens.6.26.1.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Logging/6.26.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ujS5+a2L3uquqeWa3i9uNjXAfEFuDzIfKlDqZ09aKTR2M6eLqQcc0BBhh0FtJkTmsfa8GJjKDEYVcbgVzNARfQ==",
+      "path": "microsoft.identitymodel.logging/6.26.1",
+      "hashPath": "microsoft.identitymodel.logging.6.26.1.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Tokens/6.26.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dhUE+4uhO/JhGYYRWZynO42tZ5H2p2GeVFjCwa7gLzCWBeKowO2OEtFHG3Mq/DhBR+mp6+LzUdRkKR2kI3I+TQ==",
+      "path": "microsoft.identitymodel.tokens/6.26.1",
+      "hashPath": "microsoft.identitymodel.tokens.6.26.1.nupkg.sha512"
+    },
     "Microsoft.NETCore.Platforms/3.1.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
       "path": "microsoft.netcore.platforms/3.1.0",
       "hashPath": "microsoft.netcore.platforms.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Targets/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
+      "path": "microsoft.netcore.targets/1.1.0",
+      "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
     },
     "Microsoft.Win32.Registry/4.7.0": {
       "type": "package",
@@ -251,6 +341,20 @@
       "path": "system.data.sqlclient/4.8.5",
       "hashPath": "system.data.sqlclient.4.8.5.nupkg.sha512"
     },
+    "System.IdentityModel.Tokens.Jwt/6.26.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SWdMY1W8z/7XmYXrAGSH8yZKGWIpPZ1yICdfkbKh+mctb2flxzZzaSheD8XzRQhu2dtdYcKL5mnJIvZIaYBYUQ==",
+      "path": "system.identitymodel.tokens.jwt/6.26.1",
+      "hashPath": "system.identitymodel.tokens.jwt.6.26.1.nupkg.sha512"
+    },
+    "System.Runtime/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JufQi0vPQ0xGnAczR13AUFglDyVYt4Kqnz1AZaiKZ5+GICq0/1MH/mO/eAJHt/mHW1zjKBJd7kV26SrxddAhiw==",
+      "path": "system.runtime/4.3.0",
+      "hashPath": "system.runtime.4.3.0.nupkg.sha512"
+    },
     "System.Security.AccessControl/4.7.0": {
       "type": "package",
       "serviceable": true,
@@ -258,12 +362,55 @@
       "path": "system.security.accesscontrol/4.7.0",
       "hashPath": "system.security.accesscontrol.4.7.0.nupkg.sha512"
     },
+    "System.Security.Cryptography.Cng/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WG3r7EyjUe9CMPFSs6bty5doUqT+q9pbI80hlNzo2SkPkZ4VTuZkGWjpp77JB8+uaL4DFPRdBsAY+DX3dBK92A==",
+      "path": "system.security.cryptography.cng/4.5.0",
+      "hashPath": "system.security.cryptography.cng.4.5.0.nupkg.sha512"
+    },
     "System.Security.Principal.Windows/4.7.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ==",
       "path": "system.security.principal.windows/4.7.0",
       "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
+    },
+    "System.Text.Encoding/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BiIg+KWaSDOITze6jGQynxg64naAPtqGHBwDrLaCtixsa5bKiR8dpPOHA7ge3C0JJQizJE+sfkz1wV+BAKAYZw==",
+      "path": "system.text.encoding/4.3.0",
+      "hashPath": "system.text.encoding.4.3.0.nupkg.sha512"
+    },
+    "System.Text.Encodings.Web/4.7.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iTUgB/WtrZ1sWZs84F2hwyQhiRH6QNjQv2DkwrH+WP6RoFga2Q1m3f9/Q7FG8cck8AdHitQkmkXSY8qylcDmuA==",
+      "path": "system.text.encodings.web/4.7.2",
+      "hashPath": "system.text.encodings.web.4.7.2.nupkg.sha512"
+    },
+    "System.Text.Json/4.7.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TcMd95wcrubm9nHvJEQs70rC0H/8omiSGGpU4FQ/ZA1URIqD4pjmFJh2Mfv1yH1eHgJDWTi2hMDXwTET+zOOyg==",
+      "path": "system.text.json/4.7.2",
+      "hashPath": "system.text.json.4.7.2.nupkg.sha512"
+    },
+    "Custodian.Properties.Estate.Services.Abstraction/1.0.3": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Custodian.Properties.Estates.Domain/1.0.3": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Custodian.Properties.Estates.Helpers/1.0.4": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

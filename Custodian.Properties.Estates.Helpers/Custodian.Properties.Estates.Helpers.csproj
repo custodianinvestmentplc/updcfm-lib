@@ -14,15 +14,16 @@
 		<Version>1.0.4</Version>
 	</PropertyGroup>
 
-	<!--
-  <Import Project="./SystemConfig/Directory.Build.props" />
--->
+
+	
 	<ItemGroup>
 		<PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
 		<PackageReference Include="Custodian.Properties.Estates.Domain" Version="1.0.3" />
 		<PackageReference Include="Dapper" Version="2.0.123" />
+		<PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.26.1" />
 		<PackageReference Include="RdsUtilitiesDatabaseLibrary" Version="1.0.2" />
 		<PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+		<PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.26.1" />
 	</ItemGroup>
 
 </Project>

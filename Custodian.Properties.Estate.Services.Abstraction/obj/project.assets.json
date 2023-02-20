@@ -3,28 +3,22 @@
   "targets": {
     "net6.0": {
       "Custodian.Properties.Estates.Domain/1.0.3": {
-        "type": "package",
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "lib/net6.0/Custodian.Properties.Estates.Domain.dll": {}
+          "bin/placeholder/Custodian.Properties.Estates.Domain.dll": {}
         },
         "runtime": {
-          "lib/net6.0/Custodian.Properties.Estates.Domain.dll": {}
+          "bin/placeholder/Custodian.Properties.Estates.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Custodian.Properties.Estates.Domain/1.0.3": {
-      "sha512": "xR3IqyFT6hkFyTgbrKDIKi+O4ag4kitgJcuMFLXe0oWf2iDVoGawyZl5fjlKubhrX8jZKfKpDQ9RdhmoL75hFw==",
-      "type": "package",
-      "path": "custodian.properties.estates.domain/1.0.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "custodian.properties.estates.domain.1.0.3.nupkg.sha512",
-        "custodian.properties.estates.domain.nuspec",
-        "lib/net6.0/Custodian.Properties.Estates.Domain.dll"
-      ]
+      "type": "project",
+      "path": "../Custodian.Properties.Estates.Domain/Custodian.Properties.Estates.Domain.csproj",
+      "msbuildProject": "../Custodian.Properties.Estates.Domain/Custodian.Properties.Estates.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -33,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dogiugo\\.nuget\\packages\\": {}
+    "C:\\Users\\krane\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.3",
     "restore": {
-      "projectUniqueName": "C:\\dev\\custodian\\updc-fm\\Custodian.Updcfm\\Custodian.Properties.Estate.Services.Abstraction\\Custodian.Properties.Estate.Services.Abstraction.csproj",
+      "projectUniqueName": "C:\\dev\\custodian\\projects\\lib\\updcfm-lib\\Custodian.Properties.Estate.Services.Abstraction\\Custodian.Properties.Estate.Services.Abstraction.csproj",
       "projectName": "Custodian.Properties.Estate.Services.Abstraction",
-      "projectPath": "C:\\dev\\custodian\\updc-fm\\Custodian.Updcfm\\Custodian.Properties.Estate.Services.Abstraction\\Custodian.Properties.Estate.Services.Abstraction.csproj",
-      "packagesPath": "C:\\Users\\dogiugo\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\custodian\\updc-fm\\Custodian.Updcfm\\Custodian.Properties.Estate.Services.Abstraction\\obj\\",
+      "projectPath": "C:\\dev\\custodian\\projects\\lib\\updcfm-lib\\Custodian.Properties.Estate.Services.Abstraction\\Custodian.Properties.Estate.Services.Abstraction.csproj",
+      "packagesPath": "C:\\Users\\krane\\.nuget\\packages\\",
+      "outputPath": "C:\\dev\\custodian\\projects\\lib\\updcfm-lib\\Custodian.Properties.Estate.Services.Abstraction\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\dogiugo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\krane\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -58,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\dev\\custodian\\projects\\lib\\updcfm-lib\\Custodian.Properties.Estates.Domain\\Custodian.Properties.Estates.Domain.csproj": {
+              "projectPath": "C:\\dev\\custodian\\projects\\lib\\updcfm-lib\\Custodian.Properties.Estates.Domain\\Custodian.Properties.Estates.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -92,7 +90,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

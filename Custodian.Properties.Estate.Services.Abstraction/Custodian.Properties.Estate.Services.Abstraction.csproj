@@ -12,13 +12,9 @@
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<Version>1.0.3</Version>
 	</PropertyGroup>
-
-	<!--
-  <Import Project="./SystemConfig/Directory.Build.props" />
-	-->
 	
 	<ItemGroup>
 		<PackageReference Include="Custodian.Properties.Estates.Domain" Version="1.0.3" />
 	</ItemGroup>
-
+	
 </Project>
